@@ -1,0 +1,6 @@
+---
+listing:
+  contents: posts
+  type: table
+---
+toto
