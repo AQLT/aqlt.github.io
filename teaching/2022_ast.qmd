@@ -1,0 +1,9 @@
+---
+title: "Analyse des séries temporelles avec {{< fa brands r-project >}}"
+date: 11/21/2022
+date-format: "MMM YYYY"
+---
+
+Formation de 12 heures données au CEPE les 21 et 22 novembre 2022.
+
+Programme : analyse graphique, décomposition, lissage exponentiel, modélisation ARIMA

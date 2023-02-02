@@ -1,0 +1,35 @@
+---
+title: "Alain Quartier-la-Tente"
+about:
+  template: jolla
+  image: img/avatar.png
+  image-width: 10em
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/AQLT
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/alainqlt/
+    - icon: twitter
+      href: https://twitter.com/alainqlt/
+css: css/home.css
+---
+
+::: {.content-visible when-profile="en"}
+```{r, include = FALSE, eval = FALSE}
+subtitle <- "INSEE, French civil servant"
+```
+:::
+
+::: {.content-visible when-profile="fr"}
+```{r, include = FALSE}
+subtitle <- "Administrateur de l'Insee"
+```
+:::
+
+---
+subtitle: "`r subtitle`"
+---
+
+

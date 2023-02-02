@@ -1,6 +1,7 @@
 ---
 listing:
-  contents: posts
+  contents: teaching
   type: table
+  date-format: "MMM YYYY"
+  fields: [image, date, title]
 ---
-toto

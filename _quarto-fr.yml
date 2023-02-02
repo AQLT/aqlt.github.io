@@ -1,0 +1,24 @@
+
+
+website:
+  description: "Site personnel d'Alain Quartier-la-Tente (AQLT), administrateur de l'Insee"
+  navbar:
+    # left:
+    #   - href: index.qmd
+    #     text: Home
+
+    right:
+      - href: aboutme.qmd
+        text: About me
+      - href: CV.qmd
+        text: CV
+      - href: teaching.qmd
+        text: Enseignement
+      - href: blog/index.qmd
+        text: Blog
+      - href: ../en
+        text: EN
+        icon: translate
+
+lang: fr
+

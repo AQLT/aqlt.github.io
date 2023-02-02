@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "AQLT"
+  description: "Site personnel d'Alain Quartier-la-Tente (AQLT), administrateur de l'Insee"
+  favicon: img/favicon/favicon.ico
+  search: false
+  navbar:
+    logo: img/favicon/android.png
+
+format:
+  html:
+    theme: Litera #Spacelab
+    css: ["css/index.css", "css/commun.css", "css/callout.scss"]
+    toc: true
+
+editor: source
+
+profile:
+  default: fr
+  group: [fr, en]
+
