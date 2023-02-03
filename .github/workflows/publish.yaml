@@ -18,24 +18,11 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render and Publish
-        author: 'Carlos Scheidegger'
-        description: 'This action will render an existing quarto project'
-        runs:
-          using: 'composite'
-          steps:
-            - name: 'Render'
-              env:
-                QUARTO_PRINT_STACK: true
-              run: |
-                quarto render . --profile fr
-                quarto render . --profile en
-                if [ -f "_book" ]; then
-                  echo "QUARTO_OUTPUT=_book" >> $GITHUB_ENV
-                elif [ -f "_site" ]; then
-                  echo "QUARTO_OUTPUT=_site" >> $GITHUB_ENV
-                fi
-              shell: bash
-        with:
-          target: gh-pages
+        shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.email "quarto-ga@example.com"
+          git config --global user.name "yeeeeeeah"
+          quarto publish --profile gh-pages
+          
