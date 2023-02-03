@@ -1,0 +1,14 @@
+{
+  "hash": "44ef964b5b1edb4eaa54d3a06e098c96",
+  "result": {
+    "markdown": "---\ntitle: \"Alain Quartier-la-Tente\"\nabout:\n  template: jolla\n  image: img/avatar.png\n  image-width: 10em\n  links:\n    - icon: github\n      text: Github\n      href: https://github.com/AQLT\n    - icon: linkedin\n      text: LinkedIn\n      href: https://www.linkedin.com/in/alainqlt/\n    - icon: twitter\n      href: https://twitter.com/alainqlt/\ncss: css/home.css\n---\n\n\n::: {.content-visible when-profile=\"en\"}\n\n\n\n:::\n\n::: {.content-visible when-profile=\"fr\"}\n\n\n\n:::\n\n\n---\nsubtitle: \"Administrateur de l'Insee\"\n---\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

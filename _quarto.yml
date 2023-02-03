@@ -21,3 +21,5 @@ profile:
   #default: fr
   group: [fr, en]
 
+execute:
+  freeze: auto
