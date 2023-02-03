@@ -18,6 +18,6 @@ format:
 editor: source
 
 profile:
-  default: fr
+  #default: fr
   group: [fr, en]
 

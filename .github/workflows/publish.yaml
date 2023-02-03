@@ -1,0 +1,53 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto Publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and Publish
+        author: 'Carlos Scheidegger'
+        description: 'This action will render an existing quarto project'
+        inputs:
+          to:
+            description: 'Format to render output. Use "all" to generate all outputs, when eg rendering a book in HTML and PDF'
+            required: false
+          path:
+            description: 'Subdirectory containing the quarto project to be rendered'
+            required: false
+            default: "."
+        runs:
+          using: 'composite'
+          steps:
+            - name: 'Render'
+              env:
+                QUARTO_PRINT_STACK: true
+              run: |
+                if [ "${{ inputs.to }}" == "" ]; then
+                  quarto render ${{ inputs.path }} --profile fr
+                  quarto render ${{ inputs.path }} --profile en
+                else
+                  quarto render ${{ inputs.path }} --to ${{ inputs.to }}
+                fi
+                if [ -f "_book" ]; then
+                  echo "QUARTO_OUTPUT=_book" >> $GITHUB_ENV
+                elif [ -f "_site" ]; then
+                  echo "QUARTO_OUTPUT=_site" >> $GITHUB_ENV
+                fi
+              shell: bash
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

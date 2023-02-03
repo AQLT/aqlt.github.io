@@ -1,16 +1,16 @@
 ---
 title: "Curriculum vitæ"
-lang: fr
 ---
 
-## {{< fa briefcase >}} Expérience professionnelle 
+## {{< fa briefcase >}} [Expérience professionnelle]{.content-visible when-profile="fr"}[Professional experience]{.content-visible when-profile="en"} 
 
 :::: {.columns}
 ::: {.column width="10%"}
 2021-
 :::
 ::: {.column width="90%"}
-**[Chargé d'études macroéconomiques]{.content-visible when-profile="fr"}[Data economist]{.content-visible when-profile="en"}**, 
+[**Chargé d'études macroéconomiques**,]{.content-visible when-profile="fr"}
+[**Data economist**,]{.content-visible when-profile="en"}
 [Insee](https://www.insee.fr){target="_blank"}, Paris.
 :::
 ::::
@@ -76,20 +76,25 @@ lang: fr
 :::
 ::::
 
-
-## {{< fa user-graduate >}} Formation 
+## {{< fa user-graduate >}} [Formation]{.content-visible when-profile="fr"}[Education]{.content-visible when-profile="en"} 
 
 :::: {.columns}
 ::: {.column width="10%"}
 2020 -
 :::
 ::: {.column width="90%"}
-::::: {.publications}
+:::: {.content-visible when-profile="fr"}
 **Doctorant à l’École Doctorale de Gestion et d’Economie ([EDGE](https://ed-edge.doctorat-bretagneloire.fr){target="_blank"}), Laboratoire d’Économie et de Management de Nantes Atlantique ([LEMNA](https://lemna.univ-nantes.fr){target="_blank"})**.
 
 - Détection en temps réels des points de retournement : apport de l’utilisation des filtres asymétriques dans l’analyse conjoncturelle.  
 - Sous la direction d’Olivier Darné (LEMNA) et Dominique Ladiray (Insee).
-:::::
+::::
+:::: {.content-visible when-profile="en"}
+**PhD Student at [EDGE](https://ed-edge.doctorat-bretagneloire.fr), Nantes Atlantique Economics and Management Laboratory ([LEMNA](https://lemna.univ-nantes.fr){target="_blank"})**.
+
+- Real-time detection of turning points: contribution of the use of asymmetric filters in business cycle analysis.  
+- Under the supervision of Olivier Darné (LEMNA) and Dominique Ladiray (Insee). 
+::::
 :::
 ::::
 
@@ -98,7 +103,8 @@ lang: fr
 2019 - 2021
 :::
 ::: {.column width="90%"}
-**École Nationale de la Statistique et de l’Administration Économique** ([ENSAE](https://www.ensae.fr){target="_blank"}).
+[**École Nationale de la Statistique et de l’Administration Économique** ([ENSAE](https://www.ensae.fr){target="_blank"}).]{.content-visible when-profile="fr"}
+[**National School of Statistics and Economic Administration** ([ENSAE](https://www.ensae.fr/en){target="_blank"}).]{.content-visible when-profile="en"}
 :::
 ::::
 
@@ -107,7 +113,9 @@ lang: fr
 2014 - 2015
 :::
 ::: {.column width="90%"}
-**Master 2 de statistique-économétrie, spécialité statistique publique, parcours études statistiques**, [ENSAI](http://ensai.fr){target="_blank"} / [Université Rennes 1](https://math.univ-rennes1.fr){target="_blank"}.
+[**Master 2 de statistique-économétrie, spécialité statistique publique, parcours études statistiques**, [ENSAI](http://ensai.fr){target="_blank"}]{.content-visible when-profile="fr"}
+[**Master of Science in statistics-econometrics, specialisation in official statistics and statistical studies**, [ENSAI](http://ensai.fr/fr){target="_blank"} ]{.content-visible when-profile="en"}
+/ [Université Rennes 1](https://math.univ-rennes1.fr){target="_blank"}.
 :::
 ::::
 
@@ -116,7 +124,8 @@ lang: fr
 2013 - 2014
 :::
 ::: {.column width="90%"}
-**Licence Sciences des organisations et des marchés, mention économie appliquée**, [Université Paris-Dauphine](https://dauphine.psl.eu/formations/licences/economie-appliquee){target="_blank"}.
+[**Licence Sciences des organisations et des marchés, mention économie appliquée**, [Université Paris-Dauphine](https://dauphine.psl.eu/formations/licences/economie-appliquee){target="_blank"}.]{.content-visible when-profile="fr"}
+[**Bachelor of Economics in Science of organizations and markets, applied economics**, [Université Paris-Dauphine](https://dauphine.psl.eu/en/formations/licences/economie-appliquee){target="_blank"}.]{.content-visible when-profile="en"}
 :::
 ::::
 
@@ -125,7 +134,9 @@ lang: fr
 2012 - 2013
 :::
 ::: {.column width="90%"}
-**Licence Sciences, technologies, santé, mention mathématiques**, [Université Rennes 1](https://math.univ-rennes1.fr/licence-mention-mathematiques){target="_blank"}.
+[**Licence Sciences, technologies, santé, mention mathématiques**,]{.content-visible when-profile="fr"}
+[**Bachelor of Science in Mathematics equivalent**,]{.content-visible when-profile="en"}
+[Université Rennes 1](https://math.univ-rennes1.fr/licence-mention-mathematiques){target="_blank"}.
 :::
 ::::
 
@@ -135,7 +146,8 @@ lang: fr
 2012 - 2014
 :::
 ::: {.column width="90%"}
-**École Nationale de la Statistique et de l’Analyse de l’Information** ([ENSAI](http://ensai.fr){target="_blank"}).
+[**École Nationale de la Statistique et de l’Analyse de l’Information**  ([ENSAI](http://ensai.fr){target="_blank"}).]{.content-visible when-profile="fr"}
+[**National School for Statistics and Information Analysis, France**   ([ENSAI](http://ensai.fr/en){target="_blank"}).]{.content-visible when-profile="en"}
 :::
 ::::
 
@@ -144,7 +156,8 @@ lang: fr
 2010 - 2012
 :::
 ::: {.column width="90%"}
-**Classes préparatoires aux grandes écoles, filière MPSI (Maths, Physique, Sciences de l’Ingénieur) puis MP* (Mathématiques Physique)**, option informatique, [Lycée Carnot](http://lyc21-carnot.ac-dijon.fr){target="_blank"}, Dijon.
+[**Classes préparatoires aux grandes écoles, filière MPSI (Maths, Physique, Sciences de l’Ingénieur) puis MP* (Mathématiques Physique)**, option informatique, [Lycée Carnot](http://lyc21-carnot.ac-dijon.fr){target="_blank"}, Dijon.]{.content-visible when-profile="fr"}
+[**Post-secondary preparatory school in Mathematics, Physics and Computer Science (France’s Grandes écoles)**, [Lycée Carnot](http://lyc21-carnot.ac-dijon.fr){target="_blank"}, Dijon.]{.content-visible when-profile="en"}
 :::
 ::::
 
@@ -152,8 +165,9 @@ lang: fr
 
 ## {{< fa newspaper >}} Publications / Interventions
 
-**Publications**
+### Publications
 
+::::: {.content-visible when-profile="fr"}
 - Ladiray D. et Quartier-la-Tente A. (2018), « Du bon usage des modèles Reg-ARIMA en désaisonnalisation », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_1_ACTEv3_QUARTIERLATENTE_JMS2018.pdf){target="_blank"}*.
 
 ::: {.callout-resume .callout-warning collapse=true}
@@ -164,53 +178,112 @@ Les principaux logiciels d’ajustement saisonnier (X-13ARIMA-SEATS, TRAMO-SEATS
 
 Dans cette article, nous illustrons les réelles difficultés de mise en œuvre de ces modèles à travers des cas concrets : l’estimation d’un effet d’année bissextile, l’estimation de ruptures et l’identification d’un modèle ARIMA.
 :::
+:::::
+::::: {.content-visible when-profile="en"}
+- Ladiray D., Quartier-la-Tente A. (2018), “The good use of Reg-ARIMA models in seasonal ad- justment”, *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_1_ACTEv3_QUARTIERLATENTE_JMS2018.pdf){target="_blank"}* (French article).
+::::: 
 
+
+
+::::: {.content-visible when-profile="fr"}
 - Pham H. et Quartier-la-Tente A. (2018), « Désaisonnaliser les séries très longues par sous-période, gains et choix de la longueur de traitement », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_2_ACTEv3_PHAM_JMS2018.pdf){target="_blank"}*.
+::::: 
+::::: {.content-visible when-profile="fr"}
+- Pham H., Quartier-la-Tente A. (2018), “Seasonal adjustment of very long time series by sub- period, advantages and choice of the estimate length”, *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_2_ACTEv3_PHAM_JMS2018.pdf){target="_blank"}* (French article).
+::::: 
 
+::::: {.content-visible when-profile="fr"}
 - Dortet-Bernadet V., Lenseigne F., Parent C., Quartier-la-Tente A., Stoliaroff-Pépin A-M. et Plouhinec C. (2016), « Après deux ans de turbulences, le secteur aéronautique français peut redécoller », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/fichier/2531682/122016_d1.pdf){target="_blank"}*, décembre, p. 19-37.
 
 ::: {.callout-resume .callout-warning collapse=true}
 ### Résumé
 L’objectif de ce dossier est d’analyser la conjoncture récente du secteur aéronautique. Ses effets d’entraînement sur l’activité nationale française s’y révèlent plus importants qu’ailleurs et l’économie française s’avère la plus dépendante aux fluctuations de la demande mondiale d’avions. Pourtant, la construction aéronautique française n’a pas profité du récent essor du trafic aérien et s’est repliée en 2014 et 2015. Ce repli tient à la fois à des problèmes d’offre (constructeurs et équipementiers à la limite de leur capacité de production, problèmes d’approvisionnement) et de demande (notamment pour les avions d’affaires et d’hélicoptères). Toutefois, ces problèmes semblent se résoudre peu à peu fin 2016 : production et exportations aéronautiques peuvent maintenant redécoller, ne serait-ce que pour rattraper le retard accumulé dans les livraisons.
 :::
+::::: 
+::::: {.content-visible when-profile="en"}
+- Dortet-Bernadet V., Lenseigne F., Parent C., Quartier-la-Tente A., Stoliaroff-Pépin A-M., Plouhinec C. (2016), “After two years of turbulence, the French aeronautical sector is ready to take off again”, *[Conjoncture in France](https://www.inrsee.fr/en/statistiques/fichier/2532051/122016_d1E.pdf){target="_blank"}*, December, p. 19-37.
+::::: 
 
-
+::::: {.content-visible when-profile="fr"}
 - Glotain M. et Quartier-la-Tente A. (2015), « De nouveaux indicateurs de climats des affaires sous-sectoriels pour améliorer le diagnostic conjoncturel », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/fichier/2019067/062016_d2.pdf){target="_blank"}*, juin, p. 35-56.
 
 ::: {.callout-resume .callout-warning collapse=true}
 ### Résumé
 L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats des affaires pour améliorer le diagnostic conjoncturel. Ces indicateurs synthétiques permettent de résumer l’information commune aux soldes d’opinion collectés dans les enquêtes de conjoncture. En plus du climat des affaires « France » des climats pour les principaux secteurs marchands (industrie, bâtiment, commerce, services) étaient déjà publiés. Dans ce dossier, une désagrégation plus importante encore est proposée, avec des climats sous-sectoriels. Dans l’industrie, cela permet de distinguer par exemple le climat dans l’agroalimentaire et celui dans l’automobile. Ces climats sous-sectoriels apportent une information pertinente pour l’analyse : ils améliorent la lecture des soldes d’opinion ; ils permettent d’obtenir des prévisions satisfaisantes de l’activité des sous-branches correspondantes ; ils fournissent également, pour l’industrie dans son ensemble, des prévisions plus précises que les modèles utilisés jusqu’à présent. Ces nouveaux indicateurs de climats sous-sectoriels sont depuis systématiquement publiés dans les publications sur les enquêtes de conjoncture.
 :::
+::::: 
+::::: {.content-visible when-profile="en"}
+- Glotain M., Quartier-la-Tente A. (2015), “New sub-sector business climate indicators to improve economic outlook analysis”, *[Conjoncture in France](https://www.insee.fr/en/statistiques/fichier/2019082/062016_d2E.pdf){target="_blank"}*, June, p. 35-54.
+::::: 
 
+::::: {.content-visible when-profile="fr"}
 - Quartier-la-Tente A. (2015), « Dans quelle mesure l’intégration d’informations sous-sectorielles permet-elle d’améliorer la qualité de la prévision de la production manufacturière ? », mémoire de master, miméo.
+::::: 
+::::: {.content-visible when-profile="en"}
+- Quartier-la-Tente A. (2015), “To what extent does the integration of sub-sectoral information improve the quality of manufacturing production forecasting?”, Master’s thesis.
+::::: 
 
 
-
-**Interventions**
+### Interventions
 
 - Performance of asymmetric filters for trend-cycle extraction - Application to the COVID-19 crisis (2021), [JSM (2021)](https://ww2.amstat.org/meetings/jsm/2021/onlineprogram/AbstractDetails.cfm?abstractid=317462){target="_blank"}.
 
 - Performance of asymmetric filters for trend-cycle extraction - Application to the COVID-19 crisis (2021), [New Techniques and Technologies for Statistics  (NTTS)](https://aqlt.github.io/slides/2021%20-%2003%20-%20NTTS/Slides.pdf){target="_blank"}.
 
-
 - Animation et participation à un Hackathon sur RJDemetra (deux jours, 2019), Deutsche Bundesbank, Francfort.
 
-- « RJDemetra: an R interface to JDemetra+ » (2019), [Seasonal Adjustment Center of Excellence (SACE) Meeting #6](https://ec.europa.eu/eurostat/cros/system/files/point_3_-_rjdemetra.pdf), [New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/190315_rjdemetra.pdf){target="_blank"}, Seasonal Adjustment Expert Group (SAEG), [useR!2019](http://user2019.r-project.org/static/pres/t256274.pdf){target="_blank"}.
+- RJDemetra: an R interface to JDemetra+ (2019), [Seasonal Adjustment Center of Excellence (SACE) Meeting #6](https://ec.europa.eu/eurostat/cros/system/files/point_3_-_rjdemetra.pdf), [New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/190315_rjdemetra.pdf){target="_blank"}, Seasonal Adjustment Expert Group (SAEG), [useR!2019](http://user2019.r-project.org/static/pres/t256274.pdf){target="_blank"}.
 
-- Ladiray D. et Quartier-la-Tente A. (2019), « (In)Stability of Reg-ARIMA Models for Seasonal Adjustment », *[New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/point_7.1_-_insee_-_instability_of_reg-arima_estimations.pdf){target="_blank"}*.
+- Ladiray D. et Quartier-la-Tente A. (2019), (In)Stability of Reg-ARIMA Models for Seasonal Adjustment, *[New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/point_7.1_-_insee_-_instability_of_reg-arima_estimations.pdf){target="_blank"}*.
 
-- « R and JDemetra+: RJDemetra and rjdqa » (2018), [Seasonal Adjustment Center of Excellence (SACE) Meeting #5](https://ec.europa.eu/eurostat/cros/system/files/point_6.2_-_insee_-_rjdemetra.pdf).
+- R and JDemetra+: RJDemetra and rjdqa (2018), [Seasonal Adjustment Center of Excellence (SACE) Meeting #5](https://ec.europa.eu/eurostat/cros/system/files/point_6.2_-_insee_-_rjdemetra.pdf).
 
 
-## {{< fa chalkboard-teacher >}} Enseignements
+## {{< fa chalkboard-teacher >}} [Enseignements]{.content-visible when-profile="fr"}[Trainings]{.content-visible when-profile="en"} 
 
+
+:::: {.columns}
+::: {.column width="10%"}
+2022
+:::
+::: {.column width="90%"}
+[**Formation désaisonnaliser une série temporelle**,]{.content-visible when-profile="fr"}
+[**Trainer on seasonal and working days adjustment (SA-WDA)**,]{.content-visible when-profile="en"}
+[CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/desaisonnaliser-une-serie-temporelle_42.html){target="_blank"}, Paris.
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+2021
+:::
+::: {.column width="90%"}
+[**Désaisonnalisation avec JDemetra+ et RJDemetra**]{.content-visible when-profile="fr"}
+[**Seasonal with JDemetra+ et RJDemetra**]{.content-visible when-profile="en"}
+(24h), RTE, Paris.
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+2020
+:::
+::: {.column width="90%"}
+[**Formation sur le traitement et la prevision de séries temporelles avec le logiciel {{< fa brands r-project >}}** (5 jours);]{.content-visible when-profile="fr"}
+[**Trainer on manipulation and forecast of time series with {{< fa brands r-project >}}** (5 days),]{.content-visible when-profile="en"}
+[BCEAO](https://www.bceao.int){target="_blank"}, Dakar.
+:::
+::::
 
 :::: {.columns}
 ::: {.column width="10%"}
 2019-
 :::
 ::: {.column width="90%"}
-**Formation désaisonnaliser une série temporelle**, [CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/desaisonnaliser-une-serie-temporelle_42.html){target="_blank"}, Paris.
+[**Formation désaisonnaliser une série temporelle**]{.content-visible when-profile="fr"}
+[**Trainer on seasonal and working days adjustment (SA-WDA)**]{.content-visible when-profile="en"}
+(24h),
+[CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/desaisonnaliser-une-serie-temporelle_42.html){target="_blank"}, Paris.
 :::
 ::::
 
@@ -219,7 +292,9 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 2017 - 2019
 :::
 ::: {.column width="90%"}
-**Formation sur la correction des variations saisonnières et des jours ouvrables (CVS-CJO)**, [Insee](https://www.insee.fr){target="_blank"}, Paris.
+[**Formations sur la correction des variations saisonnières et des jours ouvrables (CVS-CJO)**, [Insee](https://www.insee.fr){target="_blank"},]{.content-visible when-profile="fr"}
+[**Trainer on seasonal and working days adjustment (SA-WDA)**,[INSEE](https://www.insee.fr/en){target="_blank"},]{.content-visible when-profile="en"}
+Paris.
 :::
 ::::
 
@@ -228,8 +303,9 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 2017
 :::
 ::: {.column width="90%"}
-**Formation sur la construction de modèles de prévisions et d’indicateurs synthétiques**,
-[BCEAO](https://www.bceao.int){target="_blank"}, Dakar, et [Insee](https://www.insee.fr){target="_blank"}, Paris.
+[**Formation sur la construction de modèles de prévisions et d’indicateurs synthétiques**, [BCEAO](https://www.bceao.int){target="_blank"}, Dakar, et [Insee](https://www.insee.fr){target="_blank"},]{.content-visible when-profile="fr"}
+[**Trainer on forecasting models and construction of synthetic indicators**,[BCEAO](https://www.bceao.int){target="_blank"}, Dakar, and [INSEE](https://www.insee.fr/en){target="_blank"},]{.content-visible when-profile="en"}
+Paris.
 :::
 ::::
 
@@ -239,37 +315,8 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 2016
 :::
 ::: {.column width="90%"}
-**Chargé de travaux pratiques d’initiation à R**, [ENSAE](https://www.ensae.fr){target="_blank"}, Paris.
-:::
-::::
-
-
-## {{< fa chalkboard-teacher >}}  Coopération
-
-
-:::: {.columns}
-::: {.column width="10%"}
-Dakar (2020)
-:::
-::: {.column width="90%"}
-**Formation sur le traitement et la prevision de séries temporelles avec le logiciel R**, [BCEAO](https://www.bceao.int){target="_blank"}
-:::
-::::
-
-:::: {.columns}
-::: {.column width="10%"}
-Dakar (2017)
-:::
-::: {.column width="90%"}
-TODO, [BCEAO](https://www.bceao.int){target="_blank"}
-:::
-::::
-
-:::: {.columns}
-::: {.column width="10%"}
-Paris (2016)
-:::
-::: {.column width="90%"}
-Assistance technique auprès d'une délégation serbe sur l'utilisation d'enquêtes de conjoncture pour la prévision macroéconomique
+[**Chargé de travaux pratiques d’initiation à {{< fa brands r-project >}}**, [ENSAE](https://www.ensae.fr){target="_blank"}, ]{.content-visible when-profile="fr"}
+[**Lecturer in the statistical software {{< fa brands r-project >}}**, [ENSAE](https://www.ensae.fr/en){target="_blank"},]{.content-visible when-profile="en"}
+Paris.
 :::
 ::::
