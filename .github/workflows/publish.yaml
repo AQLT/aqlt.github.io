@@ -24,6 +24,5 @@ jobs:
         run: |
           git config --global user.email "quarto-ga@example.com"
           git config --global user.name "yeeeeeeah"
-          quarto publish gh-pages --profile fr
-          quarto publish gh-pages --profile en
+          quarto publish --profile gh-pages
           
