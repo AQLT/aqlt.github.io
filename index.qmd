@@ -11,10 +11,11 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/alainqlt/
-    - icon: twitter
-      href: https://twitter.com/alainqlt/
+    # - icon: twitter
+    #   href: https://twitter.com/alainqlt/
 css: css/home.css
 ---
+
 
 ::: {.content-visible when-profile="en"}
 ```{r, include = FALSE, eval = FALSE}
