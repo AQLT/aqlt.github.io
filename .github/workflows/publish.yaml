@@ -20,13 +20,10 @@ jobs:
       - name: Render and Publish
         shell: bash
         env:
-          QUARTO_PRINT_STACK: true
-          GITHUB_EMAIL: quarto-ga@example.com
-          GITHUB_USERNAME: yeeeeeeah
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.email "${{ GITHUB_EMAIL }}"
-          git config --global user.name "${{ GITHUB_USERNAME }}"
+          git config --global user.email "quarto-ga@example.com"
+          git config --global user.name "yeeeeeeah"
           quarto publish gh-pages --profile fr
           quarto publish gh-pages --profile en
           
