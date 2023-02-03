@@ -10,7 +10,7 @@ website:
     right:
       - href: aboutme.qmd
         text: About me
-      - href: CV.qmd
+      - href: cv.qmd
         text: CV
       - href: teaching.qmd
         text: Enseignement
