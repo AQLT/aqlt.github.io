@@ -1,5 +1,5 @@
 project:
-  output-dir: _site/en
+  output-dir: docs/en
 
 website:
   description: "Personal website of Alain Quartier-la-Tente (AQLT), administrator of the Insee"
