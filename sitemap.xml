@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/AQLT/aqlt.github.io/aboutme.html</loc>
-    <lastmod>2023-02-04T09:18:06.771Z</lastmod>
+    <loc>aqlt.github.io/teaching.html</loc>
+    <lastmod>2023-02-04T21:33:30.523Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/AQLT/aqlt.github.io/cv.html</loc>
-    <lastmod>2023-02-04T09:18:07.475Z</lastmod>
+    <loc>aqlt.github.io/en_site/index.en.html</loc>
+    <lastmod>2023-02-04T21:33:31.054Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/AQLT/aqlt.github.io/index.html</loc>
-    <lastmod>2023-02-04T09:18:07.807Z</lastmod>
+    <loc>aqlt.github.io/aboutme.html</loc>
+    <lastmod>2023-02-04T21:33:31.452Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/AQLT/aqlt.github.io/teaching.html</loc>
-    <lastmod>2023-02-04T09:18:08.171Z</lastmod>
+    <loc>aqlt.github.io/index.html</loc>
+    <lastmod>2023-02-04T21:33:33.239Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/AQLT/aqlt.github.io/blog/index.html</loc>
-    <lastmod>2023-02-04T09:18:08.479Z</lastmod>
+    <loc>aqlt.github.io/blog/index.html</loc>
+    <lastmod>2023-02-04T21:33:33.615Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/AQLT/aqlt.github.io/teaching/2021_rte.html</loc>
-    <lastmod>2023-02-04T09:18:08.783Z</lastmod>
+    <loc>aqlt.github.io/teaching/2021_rte.html</loc>
+    <lastmod>2023-02-04T21:33:34.062Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/AQLT/aqlt.github.io/teaching/2022_ast.html</loc>
-    <lastmod>2023-02-04T09:18:09.091Z</lastmod>
+    <loc>aqlt.github.io/teaching/2022_ast.html</loc>
+    <lastmod>2023-02-04T21:33:34.435Z</lastmod>
+  </url>
+  <url>
+    <loc>aqlt.github.io/cv.html</loc>
+    <lastmod>2023-02-04T21:33:35.216Z</lastmod>
   </url>
 </urlset>
