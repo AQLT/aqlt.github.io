@@ -1,1 +1,1 @@
-Sitemap: aqlt.github.io/sitemap.xml
+Sitemap: https://AQLT.github.io/aqlt.github.io/sitemap.xml
