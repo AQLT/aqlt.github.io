@@ -24,5 +24,8 @@ jobs:
         run: |
           git config --global user.email "quarto-ga@example.com"
           git config --global user.name "yeeeeeeah"
+          export QUARTO_PROFILE=fr
+          quarto publish --profile gh-pages
+          export QUARTO_PROFILE=en
           quarto publish --profile gh-pages
 
