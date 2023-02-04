@@ -16,21 +16,25 @@ about:
 css: css/home.css
 ---
 
+```{r}
+#| echo: false
+subtitle <- "Administrateur de l'Insee"
+nis_fr <- Sys.getenv("QUARTO_PROFILE") != "fr"
+```
 
-<!-- ::: {.content-visible when-profile="en"} -->
-<!-- ```{r, include = FALSE, eval = FALSE} -->
-<!-- subtitle <- "INSEE, French civil servant" -->
-<!-- ``` -->
-<!-- ::: -->
-
-<!-- ::: {.content-visible when-profile="fr"} -->
-<!-- ```{r, include = FALSE} -->
-<!-- subtitle <- "Administrateur de l'Insee" -->
-<!-- ``` -->
-<!-- ::: -->
+```{r}
+#| echo: false
+#| eval: !expr nis_fr
+subtitle <- "INSEE, French civil servant"
+```
 
 ---
-subtitle: "Administrateur de l'Insee"
+subtitle: "`r subtitle`"
 ---
+
+
+```{r}
+Sys.getenv("QUARTO_PROFILE") 
+```
 
 

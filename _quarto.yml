@@ -4,6 +4,7 @@ project:
 website:
   title: "AQLT"
   description: "Site personnel d'Alain Quartier-la-Tente (AQLT), administrateur de l'Insee"
+#  site-url: aqlt.github.io
   favicon: img/favicon/favicon.ico
   search: false
   navbar:
