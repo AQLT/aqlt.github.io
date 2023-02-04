@@ -34,6 +34,8 @@ subtitle: "`r subtitle`"
 
 
 ```{r}
+#| echo: false
+#| eval: false
 Sys.getenv("QUARTO_PROFILE") 
 ```
 

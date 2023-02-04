@@ -19,8 +19,8 @@ format:
 editor: source
 
 profile:
-  #default: fr
+  default: fr
   group: [fr, en]
 
 execute:
-  freeze: auto
+  freeze: false
