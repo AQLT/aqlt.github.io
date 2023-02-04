@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://AQLT.github.io/aqlt.github.io/teaching.html</loc>
-    <lastmod>2023-02-04T21:34:02.652Z</lastmod>
+    <loc>https://github.com/AQLT/aqlt.github.io/aboutme.html</loc>
+    <lastmod>2023-02-04T21:50:16.964Z</lastmod>
   </url>
   <url>
-    <loc>https://AQLT.github.io/aqlt.github.io/en_site/index.en.html</loc>
-    <lastmod>2023-02-04T21:34:03.059Z</lastmod>
+    <loc>https://github.com/AQLT/aqlt.github.io/cv.html</loc>
+    <lastmod>2023-02-04T21:50:17.952Z</lastmod>
   </url>
   <url>
-    <loc>https://AQLT.github.io/aqlt.github.io/aboutme.html</loc>
-    <lastmod>2023-02-04T21:34:03.452Z</lastmod>
+    <loc>https://github.com/AQLT/aqlt.github.io/index.html</loc>
+    <lastmod>2023-02-04T21:50:18.452Z</lastmod>
   </url>
   <url>
-    <loc>https://AQLT.github.io/aqlt.github.io/index.html</loc>
-    <lastmod>2023-02-04T21:34:03.916Z</lastmod>
+    <loc>https://github.com/AQLT/aqlt.github.io/teaching.html</loc>
+    <lastmod>2023-02-04T21:50:18.776Z</lastmod>
   </url>
   <url>
-    <loc>https://AQLT.github.io/aqlt.github.io/blog/index.html</loc>
-    <lastmod>2023-02-04T21:34:04.303Z</lastmod>
+    <loc>https://github.com/AQLT/aqlt.github.io/blog/index.html</loc>
+    <lastmod>2023-02-04T21:50:19.048Z</lastmod>
   </url>
   <url>
-    <loc>https://AQLT.github.io/aqlt.github.io/teaching/2021_rte.html</loc>
-    <lastmod>2023-02-04T21:34:04.844Z</lastmod>
+    <loc>https://github.com/AQLT/aqlt.github.io/teaching/2021_rte.html</loc>
+    <lastmod>2023-02-04T21:50:19.328Z</lastmod>
   </url>
   <url>
-    <loc>https://AQLT.github.io/aqlt.github.io/teaching/2022_ast.html</loc>
-    <lastmod>2023-02-04T21:34:05.309Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQLT.github.io/aqlt.github.io/cv.html</loc>
-    <lastmod>2023-02-04T21:34:06.111Z</lastmod>
+    <loc>https://github.com/AQLT/aqlt.github.io/teaching/2022_ast.html</loc>
+    <lastmod>2023-02-04T21:50:19.612Z</lastmod>
   </url>
 </urlset>

@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "AQLT",
-    "section": "",
-    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitre\n\n\n\n\n\n\n\n \n\n\n\nnov. 2022\n\n\nAnalyse des séries temporelles avec \n\n\n\n\n\n \n\n\n\njuin 2021\n\n\nDésaisonnalisation avec JDemetra+ et RJDemetra\n\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "teaching/2021_rte.html",
-    "href": "teaching/2021_rte.html",
-    "title": "Désaisonnalisation avec JDemetra+ et RJDemetra",
-    "section": "",
-    "text": "Formation 24h sur la désaisonnalisation réalisée pour RTE les 23, 24, 30 juin et 1er juillet 2021.\nProgramme : exploration des séries sous R et JDemetra+ (spectre, modèles de décomposition…), modèles RegARIMA (points atypiques, CJO), modèle de décomposition X-11, évaluer la qualité des modèles de désaisonnalisation, actualisation des modèles et mise en production."
-  },
-  {
-    "objectID": "teaching/2022_ast.html",
-    "href": "teaching/2022_ast.html",
-    "title": "Analyse des séries temporelles avec ",
-    "section": "",
-    "text": "Formation de 12 heures données au CEPE les 21 et 22 novembre 2022.\nProgramme : analyse graphique, décomposition, lissage exponentiel, modélisation ARIMA"
-  },
-  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum vitæ",
@@ -47,5 +26,33 @@
     "title": "Curriculum vitæ",
     "section": " Enseignements",
     "text": "Enseignements\n\n\n2022\n\nFormation désaisonnaliser une série temporelle,  CEPE, Paris.\n\n\n\n\n2021\n\nDésaisonnalisation avec JDemetra+ et RJDemetra  (24h), RTE, Paris.\n\n\n\n\n2020\n\nFormation sur le traitement et la prevision de séries temporelles avec le logiciel  (5 jours);  BCEAO, Dakar.\n\n\n\n\n2019-\n\nFormation désaisonnaliser une série temporelle  (24h), CEPE, Paris.\n\n\n\n\n2017 - 2019\n\nFormations sur la correction des variations saisonnières et des jours ouvrables (CVS-CJO), Insee,  Paris.\n\n\n\n\n2017\n\nFormation sur la construction de modèles de prévisions et d’indicateurs synthétiques, BCEAO, Dakar, et Insee,  Paris.\n\n\n\n\n2016\n\nChargé de travaux pratiques d’initiation à , ENSAE,  Paris."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Alain Quartier-la-Tente",
+    "section": "",
+    "text": "Sys.getenv(\"QUARTO_PROFILE\") \n\n[1] \"fr\""
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "AQLT",
+    "section": "",
+    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitre\n\n\n\n\n\n\n\n \n\n\n\nnov. 2022\n\n\nAnalyse des séries temporelles avec \n\n\n\n\n\n \n\n\n\njuin 2021\n\n\nDésaisonnalisation avec JDemetra+ et RJDemetra\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "teaching/2021_rte.html",
+    "href": "teaching/2021_rte.html",
+    "title": "Désaisonnalisation avec JDemetra+ et RJDemetra",
+    "section": "",
+    "text": "Formation 24h sur la désaisonnalisation réalisée pour RTE les 23, 24, 30 juin et 1er juillet 2021.\nProgramme : exploration des séries sous R et JDemetra+ (spectre, modèles de décomposition…), modèles RegARIMA (points atypiques, CJO), modèle de décomposition X-11, évaluer la qualité des modèles de désaisonnalisation, actualisation des modèles et mise en production."
+  },
+  {
+    "objectID": "teaching/2022_ast.html",
+    "href": "teaching/2022_ast.html",
+    "title": "Analyse des séries temporelles avec ",
+    "section": "",
+    "text": "Formation de 12 heures données au CEPE les 21 et 22 novembre 2022.\nProgramme : analyse graphique, décomposition, lissage exponentiel, modélisation ARIMA"
   }
 ]
