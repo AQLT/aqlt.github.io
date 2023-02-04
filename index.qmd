@@ -17,20 +17,20 @@ css: css/home.css
 ---
 
 
-::: {.content-visible when-profile="en"}
-```{r, include = FALSE, eval = FALSE}
-subtitle <- "INSEE, French civil servant"
-```
-:::
+<!-- ::: {.content-visible when-profile="en"} -->
+<!-- ```{r, include = FALSE, eval = FALSE} -->
+<!-- subtitle <- "INSEE, French civil servant" -->
+<!-- ``` -->
+<!-- ::: -->
 
-::: {.content-visible when-profile="fr"}
-```{r, include = FALSE}
-subtitle <- "Administrateur de l'Insee"
-```
-:::
+<!-- ::: {.content-visible when-profile="fr"} -->
+<!-- ```{r, include = FALSE} -->
+<!-- subtitle <- "Administrateur de l'Insee" -->
+<!-- ``` -->
+<!-- ::: -->
 
 ---
-subtitle: "`r subtitle`"
+subtitle: "Administrateur de l'Insee"
 ---
 
 
