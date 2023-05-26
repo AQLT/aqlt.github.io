@@ -5,3 +5,5 @@ listing:
   date-format: "MMM YYYY"
   fields: [image, date, title]
 ---
+
+![](/img/construction3.jpg)

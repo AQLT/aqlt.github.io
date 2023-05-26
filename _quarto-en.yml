@@ -11,7 +11,7 @@ website:
     right:
       - href: aboutme.qmd
         text: About me
-      - href: cv.qmd
+      - href: cv_en.qmd
         text: CV
       - href: teaching.qmd
         text: Teaching
