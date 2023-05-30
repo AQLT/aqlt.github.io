@@ -2,7 +2,6 @@
 #   output-dir: docs
 
 website:
-  description: "Site personnel d'Alain Quartier-la-Tente (AQLT), administrateur de l'Insee"
   navbar:
     # left:
     #   - href: index.qmd
