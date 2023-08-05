@@ -1,14 +1,5 @@
-/*-- scss:defaults --*/
-$border-color-left: gray !default;
-
-
-$background-color: #11ffee00 !default;
-
-
-  /*-- scss:rules --*/
-
 div.callout-resume.callout {
-  border-left-color: $border-color-left;
+  border-left-color: gray;
   font-size: 10px;
 }
 .callout-resume.callout {

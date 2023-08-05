@@ -1,0 +1,40 @@
+div.callout-resume.callout {
+  border-left-color: gray;
+  font-size: 10px;
+}
+.callout-resume.callout {
+  font-size: 8px;
+}
+
+.callout-resume.callout-style-default {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  margin-top: -1rem; margin-bottom: 0;
+}
+div.callout-resume.callout-style-default > .callout-header {
+  background-color: #11ffee00;
+  border-left: none;
+  text-align: right;
+  font-size: 14px;
+}
+
+.callout-resume.callout.callout-style-default div.callout-body {
+  border-left: 3px solid gray;
+  padding-right:0;
+  text-align: justify;
+  text-justify: inter-word;
+  word-break: break-word;
+  width: 85%;
+  margin-left: 8%;
+  font-size: 12px;
+}
+.callout-resume.icon .callout-icon {
+  display: unset !important;
+}
+
+.callout-resume.icon.callout-style-default div.callout-icon-container {
+  padding-top: 0.1em;
+  padding-right: 0.35em;
+  border-left-color: gray;
+}
