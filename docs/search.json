@@ -1,61 +1,5 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "AQLT",
-    "section": "",
-    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitre\n\n\n\n\n\n\n\n\n\nnov. 2022\n\n\nAnalyse des séries temporelles avec \n\n\n\n\n\n\n\njuin 2021\n\n\nDésaisonnalisation avec JDemetra+ et RJDemetra\n\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "cv_en.html",
-    "href": "cv_en.html",
-    "title": "Curriculum vitæ",
-    "section": "",
-    "text": "2021-\n\nData economist, Insee, Paris.\n\n\n\n\nSummer 2020\n\nIntern at the division Research and Development of the NBB (National Bank of Belgium), Bruxelles, Belgique.\n\n\n\n\n\n2017 - 2019\n\nMethodologist on Seasonal and Working Day Adjustments (SA-WDA), Insee, Paris.\n\n\n\n\n2019 -\n\n\n\n\n\n\n2015 - 2017\n\nShort-term economic analysis officer in the manufacturing industry, INSEE, Paris.\n\n\n\n\nSummer 2013\n\nIntern research officer at the International Relations Department at the INE (Instituto Nacional de Estadística), Madrid, Spain."
-  },
-  {
-    "objectID": "cv_en.html#fa-briefcase-professional-experience",
-    "href": "cv_en.html#fa-briefcase-professional-experience",
-    "title": "Curriculum vitæ",
-    "section": "",
-    "text": "2021-\n\nData economist, Insee, Paris.\n\n\n\n\nSummer 2020\n\nIntern at the division Research and Development of the NBB (National Bank of Belgium), Bruxelles, Belgique.\n\n\n\n\n\n2017 - 2019\n\nMethodologist on Seasonal and Working Day Adjustments (SA-WDA), Insee, Paris.\n\n\n\n\n2019 -\n\n\n\n\n\n\n2015 - 2017\n\nShort-term economic analysis officer in the manufacturing industry, INSEE, Paris.\n\n\n\n\nSummer 2013\n\nIntern research officer at the International Relations Department at the INE (Instituto Nacional de Estadística), Madrid, Spain."
-  },
-  {
-    "objectID": "cv_en.html#fa-user-graduate-education",
-    "href": "cv_en.html#fa-user-graduate-education",
-    "title": "Curriculum vitæ",
-    "section": " Education",
-    "text": "Education\n\n\n2020 -\n\nPhD Student at EDGE, Nantes Atlantique Economics and Management Laboratory (LEMNA).\n\nReal-time detection of turning points: contribution of the use of asymmetric filters in business cycle analysis.\n\nUnder the supervision of Olivier Darné (LEMNA) and Dominique Ladiray (Insee).\n\n\n\n\n\n2019 - 2021\n\nNational School of Statistics and Economic Administration (ENSAE).\n\n\n\n\n2014 - 2015\n\nMaster of Science in statistics-econometrics, specialisation in official statistics and statistical studies, ENSAI / Université Rennes 1.\n\n\n\n\n2013 - 2014\n\nBachelor of Economics in Science of organizations and markets, applied economics, Université Paris-Dauphine.\n\n\n\n\n2012 - 2013\n\nBachelor of Science in Mathematics equivalent, Université Rennes 1.\n\n\n\n\n2012 - 2014\n\nNational School for Statistics and Information Analysis, France (ENSAI).\n\n\n\n\n2010 - 2012\n\nPost-secondary preparatory school in Mathematics, Physics and Computer Science (France’s Grandes écoles), Lycée Carnot, Dijon."
-  },
-  {
-    "objectID": "cv_en.html#fa-newspaper-publications-interventions",
-    "href": "cv_en.html#fa-newspaper-publications-interventions",
-    "title": "Curriculum vitæ",
-    "section": " Publications / Interventions",
-    "text": "Publications / Interventions\n\nPublications\n\nLadiray D., Quartier-la-Tente A. (2018), “The good use of Reg-ARIMA models in seasonal ad- justment”, 13e Journées de Méthodologie Statistique (French article).\nPham H., Quartier-la-Tente A. (2018), “Seasonal adjustment of very long time series by sub- period, advantages and choice of the estimate length”, 13e Journées de Méthodologie Statistique (French article).\nDortet-Bernadet V., Lenseigne F., Parent C., Quartier-la-Tente A., Stoliaroff-Pépin A-M., Plouhinec C. (2016), “After two years of turbulence, the French aeronautical sector is ready to take off again”, Conjoncture in France, December, p. 19-37.\nGlotain M., Quartier-la-Tente A. (2015), “New sub-sector business climate indicators to improve economic outlook analysis”, Conjoncture in France, June, p. 35-54.\nQuartier-la-Tente A. (2015), “To what extent does the integration of sub-sectoral information improve the quality of manufacturing production forecasting?”, Master’s thesis.\n\n\n\nInterventions\n\nPerformance of asymmetric filters for trend-cycle extraction - Application to the COVID-19 crisis (2021), JSM (2021).\nPerformance of asymmetric filters for trend-cycle extraction - Application to the COVID-19 crisis (2021), New Techniques and Technologies for Statistics (NTTS).\nAnimation et participation à un Hackathon sur RJDemetra (deux jours, 2019), Deutsche Bundesbank, Francfort.\nRJDemetra: an R interface to JDemetra+ (2019), Seasonal Adjustment Center of Excellence (SACE) Meeting #6, New Techniques and Technologies for Statistics (NTTS), Seasonal Adjustment Expert Group (SAEG), useR!2019.\nLadiray D. et Quartier-la-Tente A. (2019), (In)Stability of Reg-ARIMA Models for Seasonal Adjustment, New Techniques and Technologies for Statistics (NTTS).\nR and JDemetra+: RJDemetra and rjdqa (2018), Seasonal Adjustment Center of Excellence (SACE) Meeting #5."
-  },
-  {
-    "objectID": "cv_en.html#fa-chalkboard-teacher-trainings",
-    "href": "cv_en.html#fa-chalkboard-teacher-trainings",
-    "title": "Curriculum vitæ",
-    "section": " Trainings",
-    "text": "Trainings\n\n\n2022\n\nTrainer on seasonal and working days adjustment (SA-WDA), CEPE, Paris.\n\n\n\n\n2021\n\nSeasonal with JDemetra+ et RJDemetra (24h), RTE, Paris.\n\n\n\n\n2020\n\nTrainer on manipulation and forecast of time series with  (5 days), BCEAO, Dakar.\n\n\n\n\n2019-\n\nTrainer on seasonal and working days adjustment (SA-WDA) (24h), CEPE, Paris.\n\n\n\n\n2017 - 2019\n\nTrainer on seasonal and working days adjustment (SA-WDA),INSEE, Paris.\n\n\n\n\n2017\n\nTrainer on forecasting models and construction of synthetic indicators,BCEAO, Dakar, and INSEE, Paris.\n\n\n\n\n2016\n\nLecturer in the statistical software , ENSAE, Paris."
-  },
-  {
-    "objectID": "teaching/2021_rte.html",
-    "href": "teaching/2021_rte.html",
-    "title": "Désaisonnalisation avec JDemetra+ et RJDemetra",
-    "section": "",
-    "text": "Formation 24h sur la désaisonnalisation réalisée pour RTE les 23, 24, 30 juin et 1er juillet 2021.\nProgramme : exploration des séries sous R et JDemetra+ (spectre, modèles de décomposition…), modèles RegARIMA (points atypiques, CJO), modèle de décomposition X-11, évaluer la qualité des modèles de désaisonnalisation, actualisation des modèles et mise en production."
-  },
-  {
-    "objectID": "teaching/2022_ast.html",
-    "href": "teaching/2022_ast.html",
-    "title": "Analyse des séries temporelles avec ",
-    "section": "",
-    "text": "Formation de 12 heures données au CEPE les 21 et 22 novembre 2022.\nProgramme : analyse graphique, décomposition, lissage exponentiel, modélisation ARIMA"
-  },
-  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum vitæ",
@@ -89,5 +33,61 @@
     "title": "Curriculum vitæ",
     "section": " Enseignements",
     "text": "Enseignements\n\n\n2022\n\nAnalyse des séries temporelles avec , CEPE, Paris.\n\n\n\n\n2021\n\nDésaisonnalisation avec JDemetra+ et RJDemetra (24h), RTE, Paris.\n\n\n\n\n2020\n\nFormation sur le traitement et la prevision de séries temporelles avec le logiciel  (5 jours); BCEAO, Dakar.\n\n\n\n\n2019-\n\nFormation désaisonnaliser une série temporelle (24h), CEPE, Paris.\n\n\n\n\n2017 - 2019\n\nFormations sur la correction des variations saisonnières et des jours ouvrables (CVS-CJO), Insee, Paris.\n\n\n\n\n2017\n\nFormation sur la construction de modèles de prévisions et d’indicateurs synthétiques, BCEAO, Dakar, et Insee, Paris.\n\n\n\n\n2016\n\nChargé de travaux pratiques d’initiation à , ENSAE, Paris."
+  },
+  {
+    "objectID": "teaching/2021_rte.html",
+    "href": "teaching/2021_rte.html",
+    "title": "Désaisonnalisation avec JDemetra+ et RJDemetra",
+    "section": "",
+    "text": "Formation 24h sur la désaisonnalisation réalisée pour RTE les 23, 24, 30 juin et 1er juillet 2021.\nProgramme : exploration des séries sous R et JDemetra+ (spectre, modèles de décomposition…), modèles RegARIMA (points atypiques, CJO), modèle de décomposition X-11, évaluer la qualité des modèles de désaisonnalisation, actualisation des modèles et mise en production."
+  },
+  {
+    "objectID": "cv_en.html",
+    "href": "cv_en.html",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "2021-\n\nData economist, Insee, Paris.\n\n\n\n\nSummer 2020\n\nIntern at the division Research and Development of the NBB (National Bank of Belgium), Bruxelles, Belgique.\n\n\n\n\n\n2017 - 2019\n\nMethodologist on Seasonal and Working Day Adjustments (SA-WDA), Insee, Paris.\n\n\n\n\n2019 -\n\nReviewer for the journal Statéco and for the Journal of Official Statistics.\n\n\n\n\n2015 - 2017\n\nShort-term economic analysis officer in the manufacturing industry, INSEE, Paris.\n\n\n\n\nSummer 2013\n\nIntern research officer at the International Relations Department at the INE (Instituto Nacional de Estadística), Madrid, Spain."
+  },
+  {
+    "objectID": "cv_en.html#fa-briefcase-professional-experience",
+    "href": "cv_en.html#fa-briefcase-professional-experience",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "2021-\n\nData economist, Insee, Paris.\n\n\n\n\nSummer 2020\n\nIntern at the division Research and Development of the NBB (National Bank of Belgium), Bruxelles, Belgique.\n\n\n\n\n\n2017 - 2019\n\nMethodologist on Seasonal and Working Day Adjustments (SA-WDA), Insee, Paris.\n\n\n\n\n2019 -\n\nReviewer for the journal Statéco and for the Journal of Official Statistics.\n\n\n\n\n2015 - 2017\n\nShort-term economic analysis officer in the manufacturing industry, INSEE, Paris.\n\n\n\n\nSummer 2013\n\nIntern research officer at the International Relations Department at the INE (Instituto Nacional de Estadística), Madrid, Spain."
+  },
+  {
+    "objectID": "cv_en.html#fa-user-graduate-education",
+    "href": "cv_en.html#fa-user-graduate-education",
+    "title": "Curriculum vitæ",
+    "section": " Education",
+    "text": "Education\n\n\n2020 -\n\nPhD Student at EDGE, Nantes Atlantique Economics and Management Laboratory (LEMNA).\n\nReal-time detection of turning points: contribution of the use of asymmetric filters in business cycle analysis.\n\nUnder the supervision of Olivier Darné (LEMNA) and Dominique Ladiray (Insee).\n\n\n\n\n\n2019 - 2021\n\nNational School of Statistics and Economic Administration (ENSAE).\n\n\n\n\n2014 - 2015\n\nMaster of Science in statistics-econometrics, specialisation in official statistics and statistical studies, ENSAI / Université Rennes 1.\n\n\n\n\n2013 - 2014\n\nBachelor of Economics in Science of organizations and markets, applied economics, Université Paris-Dauphine.\n\n\n\n\n2012 - 2013\n\nBachelor of Science in Mathematics equivalent, Université Rennes 1.\n\n\n\n\n2012 - 2014\n\nNational School for Statistics and Information Analysis, France (ENSAI).\n\n\n\n\n2010 - 2012\n\nPost-secondary preparatory school in Mathematics, Physics and Computer Science (France’s Grandes écoles), Lycée Carnot, Dijon."
+  },
+  {
+    "objectID": "cv_en.html#fa-newspaper-publications-interventions",
+    "href": "cv_en.html#fa-newspaper-publications-interventions",
+    "title": "Curriculum vitæ",
+    "section": " Publications / Interventions",
+    "text": "Publications / Interventions\n\nPublications\n\nLadiray D., Quartier-la-Tente A. (2018), “The good use of Reg-ARIMA models in seasonal ad- justment”, 13e Journées de Méthodologie Statistique (French article).\nPham H., Quartier-la-Tente A. (2018), “Seasonal adjustment of very long time series by sub- period, advantages and choice of the estimate length”, 13e Journées de Méthodologie Statistique (French article).\nDortet-Bernadet V., Lenseigne F., Parent C., Quartier-la-Tente A., Stoliaroff-Pépin A-M., Plouhinec C. (2016), “After two years of turbulence, the French aeronautical sector is ready to take off again”, Conjoncture in France, December, p. 19-37.\nGlotain M., Quartier-la-Tente A. (2015), “New sub-sector business climate indicators to improve economic outlook analysis”, Conjoncture in France, June, p. 35-54.\nQuartier-la-Tente A. (2015), “To what extent does the integration of sub-sectoral information improve the quality of manufacturing production forecasting?”, Master’s thesis.\n\n\n\nInterventions\n\nPerformance of asymmetric filters for trend-cycle extraction - Application to the COVID-19 crisis (2021), JSM (2021).\nPerformance of asymmetric filters for trend-cycle extraction - Application to the COVID-19 crisis (2021), New Techniques and Technologies for Statistics (NTTS).\nAnimation et participation à un Hackathon sur RJDemetra (deux jours, 2019), Deutsche Bundesbank, Francfort.\nRJDemetra: an R interface to JDemetra+ (2019), Seasonal Adjustment Center of Excellence (SACE) Meeting #6, New Techniques and Technologies for Statistics (NTTS), Seasonal Adjustment Expert Group (SAEG), useR!2019.\nLadiray D. et Quartier-la-Tente A. (2019), (In)Stability of Reg-ARIMA Models for Seasonal Adjustment, New Techniques and Technologies for Statistics (NTTS).\nR and JDemetra+: RJDemetra and rjdqa (2018), Seasonal Adjustment Center of Excellence (SACE) Meeting #5."
+  },
+  {
+    "objectID": "cv_en.html#fa-chalkboard-teacher-trainings",
+    "href": "cv_en.html#fa-chalkboard-teacher-trainings",
+    "title": "Curriculum vitæ",
+    "section": " Trainings",
+    "text": "Trainings\n\n\n2022\n\nTrainer on seasonal and working days adjustment (SA-WDA), CEPE, Paris.\n\n\n\n\n2021\n\nSeasonal with JDemetra+ et RJDemetra (24h), RTE, Paris.\n\n\n\n\n2020\n\nTrainer on manipulation and forecast of time series with  (5 days), BCEAO, Dakar.\n\n\n\n\n2019-\n\nTrainer on seasonal and working days adjustment (SA-WDA) (24h), CEPE, Paris.\n\n\n\n\n2017 - 2019\n\nTrainer on seasonal and working days adjustment (SA-WDA),INSEE, Paris.\n\n\n\n\n2017\n\nTrainer on forecasting models and construction of synthetic indicators,BCEAO, Dakar, and INSEE, Paris.\n\n\n\n\n2016\n\nLecturer in the statistical software , ENSAE, Paris."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "AQLT",
+    "section": "",
+    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitre\n\n\n\n\n\n\n\n\n\nnov. 2022\n\n\nAnalyse des séries temporelles avec \n\n\n\n\n\n\n\njuin 2021\n\n\nDésaisonnalisation avec JDemetra+ et RJDemetra\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "teaching/2022_ast.html",
+    "href": "teaching/2022_ast.html",
+    "title": "Analyse des séries temporelles avec ",
+    "section": "",
+    "text": "Formation de 12 heures données au CEPE les 21 et 22 novembre 2022.\nProgramme : analyse graphique, décomposition, lissage exponentiel, modélisation ARIMA"
   }
 ]

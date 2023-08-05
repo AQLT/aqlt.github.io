@@ -41,8 +41,7 @@ Summer
 2019 -
 :::
 ::: {.column width="90%"}
-[**Reviewer for the journal [Statéco](https://www.insee.fr/en/information/2404098){target="_blank"} and for the _[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_**.
-]{.content-visible when-profile="en"}
+**Reviewer for the journal [Statéco](https://www.insee.fr/en/information/2404098){target="_blank"} and for the _[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_**.
 :::
 ::::
 
