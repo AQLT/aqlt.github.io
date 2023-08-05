@@ -1,5 +1,6 @@
 ---
 title: "Curriculum vitæ"
+css: "css/callout.scss"
 ---
 
 ## {{< fa briefcase >}} Expérience professionnelle 
@@ -145,7 +146,7 @@ title: "Curriculum vitæ"
 
 ### Publications
 
-- Ladiray D. et Quartier-la-Tente A. (2018), « Du bon usage des modèles Reg-ARIMA en désaisonnalisation », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_1_ACTEv3_QUARTIERLATENTE_JMS2018.pdf){target="_blank"}*.
+- Ladiray D. et Quartier-la-Tente A. (2018), « Du bon usage des modèles Reg-ARIMA en désaisonnalisation\ », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_1_ACTEv3_QUARTIERLATENTE_JMS2018.pdf){target="_blank"}*.
 
 ::: {.callout-resume .callout-warning collapse=true}
 ### Résumé
@@ -158,23 +159,23 @@ Dans cette article, nous illustrons les réelles difficultés de mise en œuvre 
 
 
 
-- Pham H. et Quartier-la-Tente A. (2018), « Désaisonnaliser les séries très longues par sous-période, gains et choix de la longueur de traitement », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_2_ACTEv3_PHAM_JMS2018.pdf){target="_blank"}*.
+- Pham H. et Quartier-la-Tente A. (2018), « Désaisonnaliser les séries très longues par sous-période, gains et choix de la longueur de traitement\ », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_2_ACTEv3_PHAM_JMS2018.pdf){target="_blank"}*.
 
-- Dortet-Bernadet V., Lenseigne F., Parent C., Quartier-la-Tente A., Stoliaroff-Pépin A-M. et Plouhinec C. (2016), « Après deux ans de turbulences, le secteur aéronautique français peut redécoller », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/fichier/2531682/122016_d1.pdf){target="_blank"}*, décembre, p. 19-37.
+- Dortet-Bernadet V., Lenseigne F., Parent C., Quartier-la-Tente A., Stoliaroff-Pépin A-M. et Plouhinec C. (2016), « Après deux ans de turbulences, le secteur aéronautique français peut redécoller\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/fichier/2531682/122016_d1.pdf){target="_blank"}*, décembre, p. 19-37.
 
 ::: {.callout-resume .callout-warning collapse=true}
 ### Résumé
 L’objectif de ce dossier est d’analyser la conjoncture récente du secteur aéronautique. Ses effets d’entraînement sur l’activité nationale française s’y révèlent plus importants qu’ailleurs et l’économie française s’avère la plus dépendante aux fluctuations de la demande mondiale d’avions. Pourtant, la construction aéronautique française n’a pas profité du récent essor du trafic aérien et s’est repliée en 2014 et 2015. Ce repli tient à la fois à des problèmes d’offre (constructeurs et équipementiers à la limite de leur capacité de production, problèmes d’approvisionnement) et de demande (notamment pour les avions d’affaires et d’hélicoptères). Toutefois, ces problèmes semblent se résoudre peu à peu fin 2016 : production et exportations aéronautiques peuvent maintenant redécoller, ne serait-ce que pour rattraper le retard accumulé dans les livraisons.
 :::
 
-- Glotain M. et Quartier-la-Tente A. (2015), « De nouveaux indicateurs de climats des affaires sous-sectoriels pour améliorer le diagnostic conjoncturel », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/fichier/2019067/062016_d2.pdf){target="_blank"}*, juin, p. 35-56.
+- Glotain M. et Quartier-la-Tente A. (2015), « De nouveaux indicateurs de climats des affaires sous-sectoriels pour améliorer le diagnostic conjoncturel\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/fichier/2019067/062016_d2.pdf){target="_blank"}*, juin, p. 35-56.
 
 ::: {.callout-resume .callout-warning collapse=true}
 ### Résumé
-L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats des affaires pour améliorer le diagnostic conjoncturel. Ces indicateurs synthétiques permettent de résumer l’information commune aux soldes d’opinion collectés dans les enquêtes de conjoncture. En plus du climat des affaires « France » des climats pour les principaux secteurs marchands (industrie, bâtiment, commerce, services) étaient déjà publiés. Dans ce dossier, une désagrégation plus importante encore est proposée, avec des climats sous-sectoriels. Dans l’industrie, cela permet de distinguer par exemple le climat dans l’agroalimentaire et celui dans l’automobile. Ces climats sous-sectoriels apportent une information pertinente pour l’analyse : ils améliorent la lecture des soldes d’opinion ; ils permettent d’obtenir des prévisions satisfaisantes de l’activité des sous-branches correspondantes ; ils fournissent également, pour l’industrie dans son ensemble, des prévisions plus précises que les modèles utilisés jusqu’à présent. Ces nouveaux indicateurs de climats sous-sectoriels sont depuis systématiquement publiés dans les publications sur les enquêtes de conjoncture.
+L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats des affaires pour améliorer le diagnostic conjoncturel. Ces indicateurs synthétiques permettent de résumer l’information commune aux soldes d’opinion collectés dans les enquêtes de conjoncture. En plus du climat des affaires « France\ » des climats pour les principaux secteurs marchands (industrie, bâtiment, commerce, services) étaient déjà publiés. Dans ce dossier, une désagrégation plus importante encore est proposée, avec des climats sous-sectoriels. Dans l’industrie, cela permet de distinguer par exemple le climat dans l’agroalimentaire et celui dans l’automobile. Ces climats sous-sectoriels apportent une information pertinente pour l’analyse : ils améliorent la lecture des soldes d’opinion ; ils permettent d’obtenir des prévisions satisfaisantes de l’activité des sous-branches correspondantes ; ils fournissent également, pour l’industrie dans son ensemble, des prévisions plus précises que les modèles utilisés jusqu’à présent. Ces nouveaux indicateurs de climats sous-sectoriels sont depuis systématiquement publiés dans les publications sur les enquêtes de conjoncture.
 :::
 
-- Quartier-la-Tente A. (2015), « Dans quelle mesure l’intégration d’informations sous-sectorielles permet-elle d’améliorer la qualité de la prévision de la production manufacturière ? », mémoire de master, miméo.
+- Quartier-la-Tente A. (2015), « Dans quelle mesure l’intégration d’informations sous-sectorielles permet-elle d’améliorer la qualité de la prévision de la production manufacturière ?\ », mémoire de master, miméo.
 
 
 
