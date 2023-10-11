@@ -145,6 +145,8 @@ title: "Curriculum vitæ"
 
 ### Publications
 
+- Babet D., Lequien M., Quartier-la-Tente A. (2022), « L'apport des modèles macroéconomiques pour simuler les effets du renchérissement des prix d’importation de l'énergie\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/6215280?sommaire=6215395){target="_blank"}*, mars, p. 16-18.
+
 - Ladiray D. et Quartier-la-Tente A. (2018), « Du bon usage des modèles Reg-ARIMA en désaisonnalisation\ », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_1_ACTEv3_QUARTIERLATENTE_JMS2018.pdf){target="_blank"}*.
 
 ::: {.callout-resume .callout-warning collapse=true}
@@ -156,6 +158,7 @@ Les principaux logiciels d’ajustement saisonnier (X-13ARIMA-SEATS, TRAMO-SEATS
 Dans cette article, nous illustrons les réelles difficultés de mise en œuvre de ces modèles à travers des cas concrets : l’estimation d’un effet d’année bissextile, l’estimation de ruptures et l’identification d’un modèle ARIMA.
 :::
 
+- Ladiray D. et Quartier-la-Tente A. (2018), « Du bon usage des modèles Reg-ARIMA en désaisonnalisation\ », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_1_ACTEv3_QUARTIERLATENTE_JMS2018.pdf){target="_blank"}*.
 
 
 - Pham H. et Quartier-la-Tente A. (2018), « Désaisonnaliser les séries très longues par sous-période, gains et choix de la longueur de traitement\ », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_2_ACTEv3_PHAM_JMS2018.pdf){target="_blank"}*.
@@ -198,11 +201,31 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 
 :::: {.columns}
 ::: {.column width="10%"}
+2023
+:::
+::: {.column width="90%"}
+**Désaisonnaliser une série temporelle**,
+[CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/desaisonnaliser-une-serie-temporelle_42.html){target="_blank"}, Paris.
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+2023-
+:::
+::: {.column width="90%"}
+**Cours d'algèbre** pour la préparation du [concours interne d'administrateurs de l'Insee](https://www.insee.fr/fr/information/4773743){target="_blank"}, Paris.
+:::
+::::
+
+
+:::: {.columns}
+::: {.column width="10%"}
 2022
 :::
 ::: {.column width="90%"}
 **Analyse des séries temporelles avec {{< fa brands r-project >}}**,
-[CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/desaisonnaliser-une-serie-temporelle_42.html){target="_blank"}, Paris.
+[CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/analyse-des-series-temporelles-avec-r_44.html){target="_blank"}, Paris.
 :::
 ::::
 
@@ -247,9 +270,80 @@ Paris.
 :::
 ::::
 
+
 :::: {.columns}
 ::: {.column width="10%"}
-2017
+2016
+:::
+::: {.column width="90%"}
+**Chargé de travaux pratiques d’initiation à {{< fa brands r-project >}}**, [ENSAE](https://www.ensae.fr){target="_blank"}, 
+Paris.
+:::
+::::
+
+## {{< fa globe-europe >}} Coopérations
+
+
+:::: {.columns}
+::: {.column width="10%"}
+**Togo** (2023)
+:::
+::: {.column width="90%"}
+Assistance technique sur la production de comptes nationaux trimestriels désaisonnalisés et corrigés des effets jours ouvrables.
+:::
+::::
+
+
+
+:::: {.columns}
+::: {.column width="10%"}
+**Mauritanie** (2022)
+:::
+::: {.column width="90%"}
+Assistance technique sur la construction d'indice de production industrielle (IPI) et sur la désaisonnalisation
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+**Macédoine du Nord** (2022)
+:::
+::: {.column width="90%"}
+Assistance technique sur les prévisions de liquidités aupdrès de la Banque centrale de Macédoine du Nord.
+:::
+::::
+
+
+:::: {.columns}
+::: {.column width="10%"}
+**Honduras** (2022)
+:::
+::: {.column width="90%"}
+Assistance technique sur les prévisions de liquidités auprès de la Banque centrale du Honduras.
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+**Paris** (2021)
+:::
+::: {.column width="90%"}
+Assistance technique à une délégation serbe sur les méthodes de désaisonnalisation
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+**Europe** (2017-)
+:::
+::: {.column width="90%"}
+Membre du centre d'excellence en désaisonnalisation d'Eurostat : réflexions sur les méthodes de désaisonnalisation ; développement de packages R autour de JDemetra+, maintenance et distribution. Assistance technique à plusieurs pays européens.
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+**Dakar** (2017)
 :::
 ::: {.column width="90%"}
 **Formation sur la construction de modèles de prévisions et d’indicateurs synthétiques**, [BCEAO](https://www.bceao.int){target="_blank"}, Dakar, et [Insee](https://www.insee.fr){target="_blank"},
@@ -260,10 +354,9 @@ Paris.
 
 :::: {.columns}
 ::: {.column width="10%"}
-2016
+**Paris** (2016)
 :::
 ::: {.column width="90%"}
-**Chargé de travaux pratiques d’initiation à {{< fa brands r-project >}}**, [ENSAE](https://www.ensae.fr){target="_blank"}, 
-Paris.
+Assistance technique à une délégation serbe sur l'utilisation des enquêtes de conjoncture pour la prévision.
 :::
 ::::
