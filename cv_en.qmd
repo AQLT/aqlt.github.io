@@ -233,6 +233,24 @@ Paris.
 
 :::: {.columns}
 ::: {.column width="10%"}
+**Mauritius** (2023)
+:::
+::: {.column width="90%"}
+Technical assistance on the production monthly indicators of economic growth (MIEG).
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+**Cameroun** (2023)
+:::
+::: {.column width="90%"}
+Technical assistance on the production of seasonally adjusted and working day adjusted Quarterly National Accounts (QNA).
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
 **Togo** (2023)
 :::
 ::: {.column width="90%"}

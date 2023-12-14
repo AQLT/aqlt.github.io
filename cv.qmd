@@ -170,6 +170,7 @@ Dans cette article, nous illustrons les réelles difficultés de mise en œuvre 
 L’objectif de ce dossier est d’analyser la conjoncture récente du secteur aéronautique. Ses effets d’entraînement sur l’activité nationale française s’y révèlent plus importants qu’ailleurs et l’économie française s’avère la plus dépendante aux fluctuations de la demande mondiale d’avions. Pourtant, la construction aéronautique française n’a pas profité du récent essor du trafic aérien et s’est repliée en 2014 et 2015. Ce repli tient à la fois à des problèmes d’offre (constructeurs et équipementiers à la limite de leur capacité de production, problèmes d’approvisionnement) et de demande (notamment pour les avions d’affaires et d’hélicoptères). Toutefois, ces problèmes semblent se résoudre peu à peu fin 2016 : production et exportations aéronautiques peuvent maintenant redécoller, ne serait-ce que pour rattraper le retard accumulé dans les livraisons.
 :::
 
+
 - Glotain M. et Quartier-la-Tente A. (2015), « De nouveaux indicateurs de climats des affaires sous-sectoriels pour améliorer le diagnostic conjoncturel\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/fichier/2019067/062016_d2.pdf){target="_blank"}*, juin, p. 35-56.
 
 ::: {.callout-resume .callout-warning collapse=true}
@@ -282,6 +283,24 @@ Paris.
 ::::
 
 ## {{< fa globe-europe >}} Coopérations
+
+:::: {.columns}
+::: {.column width="10%"}
+**Maurice** (2023)
+:::
+::: {.column width="90%"}
+Assistance technique sur la production d'indicateurs mensuels de la croissance économique.
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+**Cameroun** (2023)
+:::
+::: {.column width="90%"}
+Assistance technique sur la production de comptes nationaux trimestriels désaisonnalisés et corrigés des effets jours ouvrables.
+:::
+::::
 
 
 :::: {.columns}

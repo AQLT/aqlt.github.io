@@ -1,12 +1,17 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "robots.txt"
 
 website:
   title: "AQLT"
   description: "Site personnel d'Alain Quartier-la-Tente (AQLT), administrateur de l'Insee"
-#  site-url: aqlt.github.io
+  site-url: aqlt.github.io
   favicon: img/favicon/favicon.ico
+  google-analytics:
+    tracking-id: "G-X652XRGDPL"
+    storage: none
   search: false
   navbar:
     logo: img/favicon/android.png
