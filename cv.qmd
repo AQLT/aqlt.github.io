@@ -149,6 +149,8 @@ _[International Journal of Operational Research](https://www.inderscience.com/jh
 
 - Babet D., Lequien M., Quartier-la-Tente A. (2022), « L'apport des modèles macroéconomiques pour simuler les effets du renchérissement des prix d’importation de l'énergie\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/6215280?sommaire=6215395){target="_blank"}*, mars, p. 16-18.
 
+- Quartier-la-Tente A. (2022), « Estimation en temps réel de la tendance-cycle : apport de l’utilisation des filtres asymétriques dans la détection des points de retournement\ », *[14e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2022/S27_2_ACTE_QUARTIERLATENTE_JMS2020.pdf){target="_blank"}*.
+
 - Ladiray D. et Quartier-la-Tente A. (2018), « Du bon usage des modèles Reg-ARIMA en désaisonnalisation\ », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_1_ACTEv3_QUARTIERLATENTE_JMS2018.pdf){target="_blank"}*.
 
 ::: {.callout-resume .callout-warning collapse=true}
@@ -185,6 +187,16 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 
 
 ### Interventions
+
+- {{< fa brands r-project >}} package `tvCoef`, implementing time-varying coefficients models has never been so easy (2023), [Workshop on Time Series Analysis and Statistical Disclosure Control Methods for Official Statistics](https://aqlt.github.io/slides/2023%20-%2012%20-%20OECD/Slides_AQLT.pdf){target="_blank"}.
+
+- Manipuler les moyennes mobiles avec R et JDemetra+ (2023), [Rencontres R](https://aqlt.github.io/slides/2023%20-%2006%20-%20Rencontres%20R/Slides_AQLT.pdf){target="_blank"}.
+
+- R and JDemetra+ 3.0: A new toolbox around seasonal adjustment and time series analysis (2022), [2nd Workshop on Time Series Methods for Official Statistics](https://aqlt.github.io/slides/2022%20-%2009%20-%20OECD/Slides_AQLT.pdf){target="_blank"}, [uRos](https://aqlt.github.io/slides/2022%20-%2011%20-%20uRos/Slides_AQLT.pdf){target="_blank"}.
+
+- Trend-cycle extraction and moving average manipulations in R with the rjdfilters package (2022), [4th Seasonal Adjustment Practitioners Workshop](https://aqlt.github.io/slides/2022%20-%2006%20-%20SAPW/Slides_AQLT.pdf){target="_blank"}.
+
+- Estimation en temps réel de la tendance-cycle : Apport de l’utilisation des filtres asymétrique (2022), [1ère Journée d'Économétrie Appliquée « Michel TERRAZA »](https://aqlt.github.io/slides/2022%20-%2005%20-%20JEAMT/Slides_AQLT.pdf){target="_blank"}.
 
 - Performance of asymmetric filters for trend-cycle extraction - Application to the COVID-19 crisis (2021), [JSM (2021)](https://ww2.amstat.org/meetings/jsm/2021/onlineprogram/AbstractDetails.cfm?abstractid=317462){target="_blank"}.
 
