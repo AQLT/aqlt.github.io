@@ -1,0 +1,13 @@
+---
+toc: false
+listing:
+  contents: 
+  - "20*/*/*.qmd"
+  type: table
+  date-format: "MMM YYYY"
+  fields: [date, image, title] #image, 
+  sort: 
+  - "date desc"
+---
+
+# Formations

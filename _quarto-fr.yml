@@ -12,7 +12,7 @@ website:
         text: About me
       - href: cv.qmd
         text: CV
-      - href: teaching.qmd
+      - href: teaching/index.qmd
         text: Enseignement
       - href: blog/index.qmd
         text: Blog

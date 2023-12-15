@@ -1,0 +1,7 @@
+---
+comments: false
+---
+
+# 2021
+
+- Juin 2021 : [Désaisonnalisation avec JDemetra+ et RJDemetra](rte/) (RTE) ![](rte/img/logo.png){width="5%"}  

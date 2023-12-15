@@ -1,9 +1,11 @@
 [
   {
-    "listing": "/teaching.html",
+    "listing": "/teaching/index.html",
     "items": [
-      "/teaching/2022_ast.html",
-      "/teaching/2021_rte.html"
+      "/teaching/2023/ast/index.html",
+      "/teaching/2023/cvs/index.html",
+      "/teaching/2022/ast/index.html",
+      "/teaching/2021/rte/index.html"
     ]
   }
 ]

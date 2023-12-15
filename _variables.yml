@@ -1,0 +1,11 @@
+a2021:
+  rte:
+    url: "https://aqlt.github.io/formation.2021.rte.cvs/"
+a2022:
+  ast:
+    url: "https://aqlt.github.io/formation.2022.ast/"
+a2023:
+  cvs:
+    url: "https://aqlt.github.io/formation.2023.cvs/"
+  ast:
+    url: "https://aqlt.github.io/formation.2023.ast/"

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>AQLT - Désaisonnalisation avec JDemetra+ et RJDemetra</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../../../img/favicon/favicon.ico" rel="icon">
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-X652XRGDPL"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+ 
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied'
+  });
+gtag('config', 'G-X652XRGDPL', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../../../css/index.css">
+<link rel="stylesheet" href="../../../css/commun.css">
+<link rel="stylesheet" href="../../../css/callout.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../img/favicon/android.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">AQLT</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../aboutme.html" rel="" target="">
+ <span class="menu-text">About me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cv.html" rel="" target="">
+ <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../teaching/index.html" rel="" target="">
+ <span class="menu-text">Enseignement</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog/index.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../en" rel="" target=""><i class="bi bi-translate" role="img">
+</i> 
+ <span class="menu-text">EN</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#fa-file-zipper-données" id="toc-fa-file-zipper-données" class="nav-link active" data-scroll-target="#fa-file-zipper-données"><i class="fa-solid fa-file-zipper" aria-label="file-zipper"></i> Données</a></li>
+  <li><a href="#fa-plug-circle-check-installation-du-logiciel" id="toc-fa-plug-circle-check-installation-du-logiciel" class="nav-link" data-scroll-target="#fa-plug-circle-check-installation-du-logiciel"><i class="fa-solid fa-plug-circle-check" aria-label="plug-circle-check"></i> Installation du logiciel</a></li>
+  <li><a href="#fa-person-chalkboard-cours" id="toc-fa-person-chalkboard-cours" class="nav-link" data-scroll-target="#fa-person-chalkboard-cours"><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> Cours</a></li>
+  <li><a href="#fa-computer-travaux-pratiques" id="toc-fa-computer-travaux-pratiques" class="nav-link" data-scroll-target="#fa-computer-travaux-pratiques"><i class="fa-solid fa-computer" aria-label="computer"></i> Travaux pratiques</a>
+  <ul class="collapse">
+  <li><a href="#tp-jdemetra" id="toc-tp-jdemetra" class="nav-link" data-scroll-target="#tp-jdemetra">TP JDemetra+</a></li>
+  <li><a href="#tp-fa-brands-r-project" id="toc-tp-fa-brands-r-project" class="nav-link" data-scroll-target="#tp-fa-brands-r-project">TP <i class="fa-brands fa-r-project" aria-label="r-project"></i> :</a></li>
+  </ul></li>
+  <li><a href="#fa-copyright-licence" id="toc-fa-copyright-licence" class="nav-link" data-scroll-target="#fa-copyright-licence"><i class="fa-solid fa-copyright" aria-label="copyright"></i> Licence</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Désaisonnalisation avec JDemetra+ et RJDemetra</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Date de publication</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">juin 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Supports de cours et exercices de la formation Désaisonnalisation avec JDemetra+ et RJDemetra réalisée pour RTE par Alain Quartier-la-Tente en les 23, 24, 30 juin et 1er juillet 2021.</p>
+<p>Site web associé à la formation : <a href="https://aqlt.github.io/formation.2021.rte.cvs/">https://aqlt.github.io/formation.2021.rte.cvs/</a>.</p>
+<section id="fa-file-zipper-données" class="level1">
+<h1><i class="fa-solid fa-file-zipper" aria-label="file-zipper"></i> Données</h1>
+<p>Fichier Excel contenant les données disponibles sous <a href="https://aqlt.github.io/formation.2021.rte.cvs//data/data_rte.xlsx">data/data_rte.xlsx</a>. Pour directement les télécharger sous R, vous pouvez par exemple utiliser le code :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(XLConnect)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>fichier <span class="ot">&lt;-</span> <span class="fu">tempfile</span>(<span class="at">fileext =</span> <span class="st">"xlsx"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="st">"https://aqlt.github.io/formation.2021.rte.cvs/data/data_rte.xlsx"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(url, fichier)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>data_rte <span class="ot">&lt;-</span> <span class="fu">readWorksheetFromFile</span>(fichier, <span class="at">sheet =</span> <span class="dv">1</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>nom_colonnes <span class="ot">&lt;-</span> <span class="fu">readWorksheetFromFile</span>(fichier, <span class="at">sheet =</span> <span class="dv">1</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>                                      <span class="at">endRow=</span><span class="dv">1</span>, <span class="at">header =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>nom_colonnes</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>premiere_date <span class="ot">&lt;-</span> data_rte[<span class="dv">1</span>,<span class="dv">1</span>]</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>premiere_date</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>date_deb <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(<span class="fu">c</span>(<span class="fu">substr</span>(premiere_date,<span class="dv">1</span>,<span class="dv">4</span>),</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>              <span class="fu">substr</span>(premiere_date,<span class="dv">6</span>,<span class="dv">7</span>)))</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>data_rte <span class="ot">&lt;-</span> <span class="fu">ts</span>(data_rte[,<span class="sc">-</span><span class="dv">1</span>], <span class="at">start =</span> date_deb,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>               <span class="at">frequency =</span> <span class="dv">12</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(data_rte) <span class="ot">&lt;-</span> nom_colonnes</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Le .zip du workspace pour le TP7 est disponible sous <a href="https://aqlt.github.io/formation.2021.rte.cvs//data/Etude_de_cas.zip">data/Etude_de_cas.zip</a>. Pour directement le charger sous R, vous pouvez par exemple utiliser le code :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RJDemetra)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>dir <span class="ot">&lt;-</span> <span class="fu">tempdir</span>()</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(<span class="st">"https://aqlt.github.io/formation.2021.rte.cvs/data/Etude_de_cas.zip"</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>              <span class="fu">file.path</span>(dir, <span class="st">"Etude_de_cas.zip"</span>))</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">unzip</span>(<span class="fu">file.path</span>(dir, <span class="st">"Etude_de_cas.zip"</span>),</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>      <span class="at">exdir =</span> dir)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>wk <span class="ot">&lt;-</span> <span class="fu">load_workspace</span>(<span class="fu">file.path</span>(dir, <span class="st">"Etude_de_cas.xml"</span>))</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">compute</span>(wk)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>all_models <span class="ot">&lt;-</span> <span class="fu">get_model</span>(wk)[[<span class="dv">1</span>]]</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>all_models<span class="sc">$</span>RF2932</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="fa-plug-circle-check-installation-du-logiciel" class="level1">
+<h1><i class="fa-solid fa-plug-circle-check" aria-label="plug-circle-check"></i> Installation du logiciel</h1>
+<p>Vous pouvez retrouver <a href="https://aqlt.github.io/formation.2021.rte.cvs//manuel_installation.html">ici</a> le manuel d’installation de JDemetra+, RJDemetra et le JWSACruncher avec une version portable de Java <i class="fa-brands fa-java" aria-label="java"></i>.</p>
+</section>
+<section id="fa-person-chalkboard-cours" class="level1">
+<h1><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> Cours</h1>
+<ol type="1">
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//Cours/1—Introduction-a-la-desaisonnalisation.pdf">Introduction à la désaisonnalisation</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//Cours/2—R-et-JD.pdf">R et JDemetra+</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//Cours/3—Exploration-des-series-et-decomposition.pdf">Exploration des séries et décomposition</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//Cours/4—Methode-X13-ARIMA.pdf">Methode X13-ARIMA</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//Cours/5—La-correction-des-effets-de-calendrier.pdf">La correction des effets de calendrier</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//Cours/6—Le-modele-Reg-ARIMA.pdf">Le modèle Reg-ARIMA</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//Cours/7—Pb-estimation-regarima.pdf">Problèmes d’estimation du modèle Reg-ARIMA</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//Cours/8—Les-Moyennes-Mobiles.pdf">Les Moyennes Mobiles</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//Cours/9—Les-revisions-et-les-options-de-rafraichissement.pdf">Les révisions et les options de rafraîchissement</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//Cours/10—Les-trois-temps-de-la-production.pdf">Les trois temps de la production</a></p></li>
+</ol>
+</section>
+<section id="fa-computer-travaux-pratiques" class="level1">
+<h1><i class="fa-solid fa-computer" aria-label="computer"></i> Travaux pratiques</h1>
+<section id="tp-jdemetra" class="level2">
+<h2 class="anchored" data-anchor-id="tp-jdemetra">TP JDemetra+</h2>
+<ol type="1">
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/JD-1-Premiere_manipulation_JD.html">Première manipulation de JDemetra+</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/JD-2-Analyse_exploratoire.html">Analyse exploratoire</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/JD-3-CVS_sans_CJO.html">Désaisonnalisation sans correction des jours ouvrables</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/JD-4-CVS_CJO.html">Désaisonnalisation avec correction des jours ouvrables</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/JD-5-Preajustment.html">Pré-ajustement</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/JD-6-X11.html">Décomposition (X11)</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/JD-7-Etude_de_cas.html">Étude de cas</a></p></li>
+</ol>
+</section>
+<section id="tp-fa-brands-r-project" class="level2">
+<h2 class="anchored" data-anchor-id="tp-fa-brands-r-project">TP <i class="fa-brands fa-r-project" aria-label="r-project"></i> :</h2>
+<ol start="0" type="1">
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/R-0-Traitement_des_series_temporelles.html">Traitement des séries temporelles sous R</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/R-1-R_et_JD.html">R et JDemetra+</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/R-2-CJO.html">Correction des jours ouvrables</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/R-3-Preadjustment.html">Preajustement</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/R-4-X11.html">Décomposition (X11)</a></p></li>
+<li><p><a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/R-5-JD_in_production.html">JDemetra+ en production</a></p></li>
+</ol>
+</section>
+</section>
+<section id="fa-copyright-licence" class="level1">
+<h1><i class="fa-solid fa-copyright" aria-label="copyright"></i> Licence</h1>
+<p>Ces supports de cours sont librement réutilisable sous © 2021 Alain Quartier-la-Tente, Insee <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 3.0 <img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Licence Creative Commons" style="display: inline-block; margin: 0"></a>.</p>
+<p>Les données du <a href="https://aqlt.github.io/formation.2021.rte.cvs//TP/JD-7-Etude_de_cas.html">TP7 - Étude de cas</a>, issues de l’Insee, sont sous licence <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Data Commons Open Database License (ODbL)</a>. Les données de RTE sont quant à elles sous <a href="https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf">licence Ouverte v2.0 (Etalab)</a>.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copié");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copié");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,9 +1,0 @@
----
-listing:
-  contents: teaching
-  type: table
-  date-format: "MMM YYYY"
-  fields: [image, date, title]
----
-
-![](/img/construction3.jpg)

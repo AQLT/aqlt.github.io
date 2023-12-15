@@ -1,0 +1,56 @@
+---
+title: "Analyse des séries temporelles avec {{< fa brands r-project >}}"
+lang: fr
+date: 11/20/2023
+date-format: "MMM YYYY"
+image: "img/logo.png"
+---
+
+Supports de cours et exercices de la formation [Analyse des séries temporelles avec {{< fa brands r-project >}} au CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/analyse-des-series-temporelles-avec-r_44.html) les 20 et 21 novembre 2023.
+
+Site web associé à la formation : [{{< var a2023.ast.url >}}]({{< var a2023.ast.url >}}).
+
+# {{< fa person-chalkboard >}} Cours
+
+1. [Rappels sur l’environnement de travail de R]({{< var a2023.ast.url >}}/Cours/1_Rappels_R.pdf)
+
+2. [Analyse graphique]({{< var a2023.ast.url >}}/Cours/2_Analyse_Graphique.pdf) (voir également compléments sur la [transformation inverse de Box-Cox]({{< var a2023.ast.url >}}/backcasttransform.html))
+
+3. [Décomposition d'une série temporelle]({{< var a2023.ast.url >}}/Cours/3_Decomposition.pdf)
+
+4. [Lissage exponentiel]({{< var a2023.ast.url >}}/Cours/4_Lissage_Exponentiel.pdf)
+
+5. [La modélisation ARIMA]({{< var a2023.ast.url >}}/Cours/5_ARIMA.pdf)
+
+6. [Compléments]({{< var a2023.ast.url >}}/Cours/6_Complements.pdf)
+
+
+# {{< fa computer >}} Travaux pratiques
+
+1. [Traitement des séries temporelles sous {{< fa brands r-project >}}]({{< var a2023.ast.url >}}/TP/1_Manipulation_series_temporelles.html)
+
+2. [Analyse graphique]({{< var a2023.ast.url >}}/TP/2_Graphiques.html)
+
+3. [Décomposition d'une série temporelle]({{< var a2023.ast.url >}}/TP/3_Decomposition.html)
+
+4. [Lissage exponentiel]({{< var a2023.ast.url >}}/TP/4_Lissage_Exponentiel.html)
+
+5. [La modélisation ARIMA]({{< var a2023.ast.url >}}/TP/5_ARIMA.html)
+
+
+
+# {{< fa book-atlas >}} Bibliographie 
+
+Aragon, Y. (2011), *Séries temporelles avec R. Méthodes et cas*, Springer.
+
+Brockwell, P. J. and Davis, R. A. (1991) *Time Series: Theory and Methods*. Second edition. Springer.
+
+Hyndman, R.J., & Athanasopoulos, G. (2018) *Forecasting: principles and practice*, 2nd edition, OTexts: Melbourne, Australia. [OTexts.com/fpp2](https://OTexts.com/fpp2). Accessed on oct. 2023.
+Slides de cours : <https://github.com/robjhyndman/ETC3550Slides/releases/tag/2018>.
+
+Hyndman, R.J., & Athanasopoulos, G. (2021) *Forecasting: principles and practice*, 3rd edition, OTexts: Melbourne, Australia. [OTexts.com/fpp3](https://OTexts.com/fpp3). Accessed on oct. 2023.
+Slides et vidéos : <https://github.com/robjhyndman/fpp3_slides>.
+
+# {{< fa copyright >}} Licence
+
+Ces supports de cours sont librement réutilisable sous © 2023 Alain Quartier-la-Tente, Insee [CC BY-NC-SA 3.0 <img alt="Licence Creative Commons" style="display: inline-block; margin: 0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>](http://creativecommons.org/licenses/by-nc-sa/4.0/).

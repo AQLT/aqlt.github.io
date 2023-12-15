@@ -1,0 +1,12 @@
+---
+lang: fr
+language: 
+ title-block-author-single: Auteur
+comments: false
+---
+
+# 2023
+
+- Novembre 2023 : [Analyse de séries temporelles avec {{< fa brands r-project >}}](ast/) (Cepe)  ![](ast/img/logo.png){width="10%"}  
+
+- Novembre 2023 : [Désaisonnaliser une série temporelle](cvs/) (Cepe)  ![](cvs/img/logo.png){width="10%"}  

@@ -41,7 +41,10 @@ Summer
 2019 -
 :::
 ::: {.column width="90%"}
-**Reviewer for the journal [Statéco](https://www.insee.fr/en/information/2404098){target="_blank"} and for the _[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_**.
+**Reviewer for the journals**, [Statéco](https://www.insee.fr/en/information/2404098){target="_blank"} _[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_,
+_[Statistical Journal of the IAOS](https://officialstatistics.com){target="_blank"}_ 
+and 
+_[International Journal of Operational Research](https://www.inderscience.com/jhome.php?jcode=ijor){target="_blank"}_.
 :::
 ::::
 
@@ -176,13 +179,15 @@ Summer
 
 :::: {.columns}
 ::: {.column width="10%"}
-2022
+2022-
 :::
 ::: {.column width="90%"}
-**Trainer on seasonal and working days adjustment (SA-WDA)**,
-[CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/desaisonnaliser-une-serie-temporelle_42.html){target="_blank"}, Paris.
+**Trainer on time series analysis with R**
+(12h),
+[CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/analyse-des-series-temporelles-avec-r_44.html){target="_blank"}, Paris.
 :::
 ::::
+
 
 :::: {.columns}
 ::: {.column width="10%"}
@@ -300,7 +305,7 @@ Technical assistance on liquidity forecasting to the Central Bank of Honduras.
 
 :::: {.columns}
 ::: {.column width="10%"}
-**Paris** (2019)
+**Paris** (2018)
 :::
 ::: {.column width="90%"}
 Technical assistance on seasonal adjustment methods to a Serbian Delegation.

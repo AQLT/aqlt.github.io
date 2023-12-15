@@ -41,9 +41,11 @@ title: "Curriculum vitæ"
 2019 -
 :::
 ::: {.column width="90%"}
-**Référé de la revue [Statéco](https://www.insee.fr/fr/information/2116798){target="_blank"} et pour le _[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_**.
-[**Reviewer for the journal [Statéco](https://www.insee.fr/en/information/2404098){target="_blank"} and for the _[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_**.
-]{.content-visible when-profile="en"}
+**Référé des revues** [Statéco](https://www.insee.fr/fr/information/2116798){target="_blank"},
+_[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_,
+_[Statistical Journal of the IAOS](https://officialstatistics.com){target="_blank"}_ 
+et 
+_[International Journal of Operational Research](https://www.inderscience.com/jhome.php?jcode=ijor){target="_blank"}_.
 :::
 ::::
 
@@ -202,27 +204,17 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 
 :::: {.columns}
 ::: {.column width="10%"}
-2023
-:::
-::: {.column width="90%"}
-**Désaisonnaliser une série temporelle**,
-[CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/desaisonnaliser-une-serie-temporelle_42.html){target="_blank"}, Paris.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="10%"}
 2023-
 :::
 ::: {.column width="90%"}
-**Cours d'algèbre** pour la préparation du [concours interne d'administrateurs de l'Insee](https://www.insee.fr/fr/information/4773743){target="_blank"}, Paris.
+**Cours d'algèbre** pour la préparation du [concours interne d'administrateurs de l'Insee](https://www.insee.fr/fr/information/4773743){target="_blank"} (32h), Paris.
 :::
 ::::
 
 
 :::: {.columns}
 ::: {.column width="10%"}
-2022
+2022-
 :::
 ::: {.column width="90%"}
 **Analyse des séries temporelles avec {{< fa brands r-project >}}**,
@@ -237,16 +229,6 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 ::: {.column width="90%"}
 **Désaisonnalisation avec JDemetra+ et RJDemetra**
 (24h), RTE, Paris.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="10%"}
-2020
-:::
-::: {.column width="90%"}
-**Formation sur le traitement et la prevision de séries temporelles avec le logiciel {{< fa brands r-project >}}** (5 jours);
-[BCEAO](https://www.bceao.int){target="_blank"}, Dakar.
 :::
 ::::
 
@@ -313,7 +295,6 @@ Assistance technique sur la production de comptes nationaux trimestriels désais
 ::::
 
 
-
 :::: {.columns}
 ::: {.column width="10%"}
 **Mauritanie** (2022)
@@ -342,12 +323,14 @@ Assistance technique sur les prévisions de liquidités auprès de la Banque cen
 :::
 ::::
 
+
 :::: {.columns}
 ::: {.column width="10%"}
-**Paris** (2021)
+**Dakar** (2020)
 :::
 ::: {.column width="90%"}
-Assistance technique à une délégation serbe sur les méthodes de désaisonnalisation
+**Formation sur le traitement et la prevision de séries temporelles avec le logiciel {{< fa brands r-project >}}** ;
+[BCEAO](https://www.bceao.int){target="_blank"}, Dakar.
 :::
 ::::
 
@@ -357,6 +340,15 @@ Assistance technique à une délégation serbe sur les méthodes de désaisonnal
 :::
 ::: {.column width="90%"}
 Membre du centre d'excellence en désaisonnalisation d'Eurostat : réflexions sur les méthodes de désaisonnalisation ; développement de packages R autour de JDemetra+, maintenance et distribution. Assistance technique à plusieurs pays européens.
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+**Paris** (2018)
+:::
+::: {.column width="90%"}
+Assistance technique à une délégation serbe sur les méthodes de désaisonnalisation.
 :::
 ::::
 
