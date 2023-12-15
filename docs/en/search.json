@@ -42,32 +42,11 @@
     "text": "Coopérations\n\n\nMaurice (2023)\n\nAssistance technique sur la production d’indicateurs mensuels de la croissance économique.\n\n\n\n\nCameroun (2023)\n\nAssistance technique sur la production de comptes nationaux trimestriels désaisonnalisés et corrigés des effets jours ouvrables.\n\n\n\n\nTogo (2023)\n\nAssistance technique sur la production de comptes nationaux trimestriels désaisonnalisés et corrigés des effets jours ouvrables.\n\n\n\n\nMauritanie (2022)\n\nAssistance technique sur la construction d’indice de production industrielle (IPI) et sur la désaisonnalisation\n\n\n\n\nMacédoine du Nord (2022)\n\nAssistance technique sur les prévisions de liquidités aupdrès de la Banque centrale de Macédoine du Nord.\n\n\n\n\nHonduras (2022)\n\nAssistance technique sur les prévisions de liquidités auprès de la Banque centrale du Honduras.\n\n\n\n\nDakar (2020)\n\nFormation sur le traitement et la prevision de séries temporelles avec le logiciel  ; BCEAO, Dakar.\n\n\n\n\nEurope (2017-)\n\nMembre du centre d’excellence en désaisonnalisation d’Eurostat : réflexions sur les méthodes de désaisonnalisation ; développement de packages R autour de JDemetra+, maintenance et distribution. Assistance technique à plusieurs pays européens.\n\n\n\n\nParis (2018)\n\nAssistance technique à une délégation serbe sur les méthodes de désaisonnalisation.\n\n\n\n\nDakar (2017)\n\nFormation sur la construction de modèles de prévisions et d’indicateurs synthétiques, BCEAO, Dakar, et Insee, Paris.\n\n\n\n\nParis (2016)\n\nAssistance technique à une délégation serbe sur l’utilisation des enquêtes de conjoncture pour la prévision."
   },
   {
-    "objectID": "teaching/2021/rte/index.html",
-    "href": "teaching/2021/rte/index.html",
-    "title": "Désaisonnalisation avec JDemetra+ et RJDemetra",
+    "objectID": "teaching/2021/index.html",
+    "href": "teaching/2021/index.html",
+    "title": "2021",
     "section": "",
-    "text": "Supports de cours et exercices de la formation Désaisonnalisation avec JDemetra+ et RJDemetra réalisée pour RTE par Alain Quartier-la-Tente en les 23, 24, 30 juin et 1er juillet 2021.\nSite web associé à la formation : https://aqlt.github.io/formation.2021.rte.cvs/."
-  },
-  {
-    "objectID": "teaching/2021/rte/index.html#tp-jdemetra",
-    "href": "teaching/2021/rte/index.html#tp-jdemetra",
-    "title": "Désaisonnalisation avec JDemetra+ et RJDemetra",
-    "section": "TP JDemetra+",
-    "text": "TP JDemetra+\n\nPremière manipulation de JDemetra+\nAnalyse exploratoire\nDésaisonnalisation sans correction des jours ouvrables\nDésaisonnalisation avec correction des jours ouvrables\nPré-ajustement\nDécomposition (X11)\nÉtude de cas"
-  },
-  {
-    "objectID": "teaching/2021/rte/index.html#tp-fa-brands-r-project",
-    "href": "teaching/2021/rte/index.html#tp-fa-brands-r-project",
-    "title": "Désaisonnalisation avec JDemetra+ et RJDemetra",
-    "section": "TP  :",
-    "text": "TP  :\n\nTraitement des séries temporelles sous R\nR et JDemetra+\nCorrection des jours ouvrables\nPreajustement\nDécomposition (X11)\nJDemetra+ en production"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Formations",
-    "section": "",
-    "text": "Formations\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\n\nTitle\n\n\n\n\n\n\nNov 2023\n\n\n\n\n\nAnalyse des séries temporelles avec \n\n\n\n\nNov 2023\n\n\n\n\n\nDésaisonnaliser une série temporelle\n\n\n\n\nNov 2022\n\n\n\n\n\nAnalyse des séries temporelles avec \n\n\n\n\nJun 2021\n\n\n\n\n\nDésaisonnalisation avec JDemetra+ et RJDemetra\n\n\n\n\n\n\nNo matching items"
+    "text": "2021\n\nJuin 2021 : Désaisonnalisation avec JDemetra+ et RJDemetra (RTE)"
   },
   {
     "objectID": "teaching/2023/cvs/index.html",
@@ -161,24 +140,31 @@
     "text": "Supports de cours et exercices de la formation Analyse des séries temporelles avec  au CEPE les 20 et 21 novembre 2023.\nSite web associé à la formation : https://aqlt.github.io/formation.2023.ast/.\n\n Cours\n\nRappels sur l’environnement de travail de R\nAnalyse graphique (voir également compléments sur la transformation inverse de Box-Cox)\nDécomposition d’une série temporelle\nLissage exponentiel\nLa modélisation ARIMA\nCompléments\n\n\n\n Travaux pratiques\n\nTraitement des séries temporelles sous \nAnalyse graphique\nDécomposition d’une série temporelle\nLissage exponentiel\nLa modélisation ARIMA\n\n\n\n Bibliographie\nAragon, Y. (2011), Séries temporelles avec R. Méthodes et cas, Springer.\nBrockwell, P. J. and Davis, R. A. (1991) Time Series: Theory and Methods. Second edition. Springer.\nHyndman, R.J., & Athanasopoulos, G. (2018) Forecasting: principles and practice, 2nd edition, OTexts: Melbourne, Australia. OTexts.com/fpp2. Accessed on oct. 2023. Slides de cours : https://github.com/robjhyndman/ETC3550Slides/releases/tag/2018.\nHyndman, R.J., & Athanasopoulos, G. (2021) Forecasting: principles and practice, 3rd edition, OTexts: Melbourne, Australia. OTexts.com/fpp3. Accessed on oct. 2023. Slides et vidéos : https://github.com/robjhyndman/fpp3_slides.\n\n\n Licence\nCes supports de cours sont librement réutilisable sous © 2023 Alain Quartier-la-Tente, Insee CC BY-NC-SA 3.0 ."
   },
   {
-    "objectID": "teaching/2021_rte.html",
-    "href": "teaching/2021_rte.html",
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Formations",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\n\nTitle\n\n\n\n\n\n\nNov 2023\n\n\n\n\n\nAnalyse des séries temporelles avec \n\n\n\n\nNov 2023\n\n\n\n\n\nDésaisonnaliser une série temporelle\n\n\n\n\nNov 2022\n\n\n\n\n\nAnalyse des séries temporelles avec \n\n\n\n\nJun 2021\n\n\n\n\n\nDésaisonnalisation avec JDemetra+ et RJDemetra\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/2021/rte/index.html",
+    "href": "teaching/2021/rte/index.html",
     "title": "Désaisonnalisation avec JDemetra+ et RJDemetra",
     "section": "",
-    "text": "Formation 24h sur la désaisonnalisation réalisée pour RTE les 23, 24, 30 juin et 1er juillet 2021.\nProgramme : exploration des séries sous R et JDemetra+ (spectre, modèles de décomposition…), modèles RegARIMA (points atypiques, CJO), modèle de décomposition X-11, évaluer la qualité des modèles de désaisonnalisation, actualisation des modèles et mise en production."
+    "text": "Supports de cours et exercices de la formation Désaisonnalisation avec JDemetra+ et RJDemetra réalisée pour RTE par Alain Quartier-la-Tente en les 23, 24, 30 juin et 1er juillet 2021.\nSite web associé à la formation : https://aqlt.github.io/formation.2021.rte.cvs/."
   },
   {
-    "objectID": "teaching/2021/index.html",
-    "href": "teaching/2021/index.html",
-    "title": "2021",
-    "section": "",
-    "text": "2021\n\nJuin 2021 : Désaisonnalisation avec JDemetra+ et RJDemetra (RTE)"
+    "objectID": "teaching/2021/rte/index.html#tp-jdemetra",
+    "href": "teaching/2021/rte/index.html#tp-jdemetra",
+    "title": "Désaisonnalisation avec JDemetra+ et RJDemetra",
+    "section": "TP JDemetra+",
+    "text": "TP JDemetra+\n\nPremière manipulation de JDemetra+\nAnalyse exploratoire\nDésaisonnalisation sans correction des jours ouvrables\nDésaisonnalisation avec correction des jours ouvrables\nPré-ajustement\nDécomposition (X11)\nÉtude de cas"
   },
   {
-    "objectID": "teaching/2022_ast.html",
-    "href": "teaching/2022_ast.html",
-    "title": "Analyse des séries temporelles avec ",
-    "section": "",
-    "text": "Formation de 12 heures données au CEPE les 21 et 22 novembre 2022.\nProgramme : analyse graphique, décomposition, lissage exponentiel, modélisation ARIMA"
+    "objectID": "teaching/2021/rte/index.html#tp-fa-brands-r-project",
+    "href": "teaching/2021/rte/index.html#tp-fa-brands-r-project",
+    "title": "Désaisonnalisation avec JDemetra+ et RJDemetra",
+    "section": "TP  :",
+    "text": "TP  :\n\nTraitement des séries temporelles sous R\nR et JDemetra+\nCorrection des jours ouvrables\nPreajustement\nDécomposition (X11)\nJDemetra+ en production"
   }
 ]

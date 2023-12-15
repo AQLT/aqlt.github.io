@@ -1,9 +1,0 @@
----
-title: "Désaisonnalisation avec JDemetra+ et RJDemetra"
-date: 06/23/2021
-date-format: "MMM YYYY"
----
-
-Formation 24h sur la désaisonnalisation réalisée pour RTE les 23, 24, 30 juin et 1er juillet 2021.
-
-Programme : exploration des séries sous R et JDemetra+ (spectre, modèles de décomposition...), modèles RegARIMA (points atypiques, CJO), modèle de décomposition X-11, évaluer la qualité des modèles de désaisonnalisation, actualisation des modèles et mise en production.

@@ -1,4 +1,5 @@
 ---
+title: Formations
 toc: false
 listing:
   contents: 
@@ -9,5 +10,3 @@ listing:
   sort: 
   - "date desc"
 ---
-
-# Formations
