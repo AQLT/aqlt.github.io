@@ -166,7 +166,12 @@ Summer
 
 - {{< fa brands r-project >}} package `tvCoef`, implementing time-varying coefficients models has never been so easy (2023), [Workshop on Time Series Analysis and Statistical Disclosure Control Methods for Official Statistics](https://aqlt.github.io/slides/2023%20-%2012%20-%20OECD/Slides_AQLT.pdf){target="_blank"}.
 
+- With Abbas R. , Carnot N., Lequien M., Roux S., L'effet macro- économique de la transition bas carbone (2023), Séminaire D2E.
+
 - Manipuler les moyennes mobiles avec R et JDemetra+ (2023), [Rencontres R](https://aqlt.github.io/slides/2023%20-%2006%20-%20Rencontres%20R/Slides_AQLT.pdf){target="_blank"}.
+
+- With [du Campe de Rosamel C.](https://www.linkedin.com/in/claire-de-rosamel-61a046202/) (6-month internship), Utilisation de modèles de régression à coefficients variant dans le temps pour la prévision conjoncturelle (2023), [Atelier D2E](https://aqlt.github.io/AteliertvCoef/){target="_blank"}.
+
 
 - R and JDemetra+ 3.0: A new toolbox around seasonal adjustment and time series analysis (2022), [2nd Workshop on Time Series Methods for Official Statistics](https://aqlt.github.io/slides/2022%20-%2009%20-%20OECD/Slides_AQLT.pdf){target="_blank"}, [uRos](https://aqlt.github.io/slides/2022%20-%2011%20-%20uRos/Slides_AQLT.pdf){target="_blank"}.
 
@@ -263,7 +268,7 @@ Technical assistance on the production monthly indicators of economic growth (MI
 **Cameroun** (2023)
 :::
 ::: {.column width="90%"}
-Technical assistance on the production of seasonally adjusted and working day adjusted Quarterly National Accounts (QNA).
+Technical assistance on the production of seasonally adjusted and working day adjusted of Quarterly National Accounts (QNA).
 :::
 ::::
 
@@ -272,7 +277,7 @@ Technical assistance on the production of seasonally adjusted and working day ad
 **Togo** (2023)
 :::
 ::: {.column width="90%"}
-Technical assistance on the production of seasonally adjusted and working day adjusted Quarterly National Accounts (QNA).
+Technical assistance on the production of seasonally adjusted and working day adjusted of Quarterly National Accounts (QNA) and Monthly Indicators of Economic Growth (MIEG).
 :::
 ::::
 

@@ -190,7 +190,12 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 
 - {{< fa brands r-project >}} package `tvCoef`, implementing time-varying coefficients models has never been so easy (2023), [Workshop on Time Series Analysis and Statistical Disclosure Control Methods for Official Statistics](https://aqlt.github.io/slides/2023%20-%2012%20-%20OECD/Slides_AQLT.pdf){target="_blank"}.
 
+- Avec Abbas R. , Carnot N., Lequien M., Roux S., L'effet macro- économique de la transition bas carbone (2023), Séminaire D2E.
+
 - Manipuler les moyennes mobiles avec R et JDemetra+ (2023), [Rencontres R](https://aqlt.github.io/slides/2023%20-%2006%20-%20Rencontres%20R/Slides_AQLT.pdf){target="_blank"}.
+
+- Avec [du Campe de Rosamel C.](https://www.linkedin.com/in/claire-de-rosamel-61a046202/) (stagiaire encadrée pendant 6 mois), Utilisation de modèles de régression à coefficients variant dans le temps pour la prévision conjoncturelle (2023), [Atelier D2E](https://aqlt.github.io/AteliertvCoef/){target="_blank"}.
+
 
 - R and JDemetra+ 3.0: A new toolbox around seasonal adjustment and time series analysis (2022), [2nd Workshop on Time Series Methods for Official Statistics](https://aqlt.github.io/slides/2022%20-%2009%20-%20OECD/Slides_AQLT.pdf){target="_blank"}, [uRos](https://aqlt.github.io/slides/2022%20-%2011%20-%20uRos/Slides_AQLT.pdf){target="_blank"}.
 
@@ -206,7 +211,7 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 
 - RJDemetra: an R interface to JDemetra+ (2019), [Seasonal Adjustment Center of Excellence (SACE) Meeting #6](https://ec.europa.eu/eurostat/cros/system/files/point_3_-_rjdemetra.pdf), [New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/190315_rjdemetra.pdf){target="_blank"}, Seasonal Adjustment Expert Group (SAEG), [useR!2019](http://user2019.r-project.org/static/pres/t256274.pdf){target="_blank"}.
 
-- Ladiray D. et Quartier-la-Tente A. (2019), (In)Stability of Reg-ARIMA Models for Seasonal Adjustment, *[New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/point_7.1_-_insee_-_instability_of_reg-arima_estimations.pdf){target="_blank"}*.
+- Avec Ladiray D., (In)Stability of Reg-ARIMA Models for Seasonal Adjustment (2019), *[New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/point_7.1_-_insee_-_instability_of_reg-arima_estimations.pdf){target="_blank"}*.
 
 - R and JDemetra+: RJDemetra and rjdqa (2018), [Seasonal Adjustment Center of Excellence (SACE) Meeting #5](https://ec.europa.eu/eurostat/cros/system/files/point_6.2_-_insee_-_rjdemetra.pdf).
 
@@ -283,7 +288,7 @@ Paris.
 **Maurice** (2023)
 :::
 ::: {.column width="90%"}
-Assistance technique sur la production d'indicateurs mensuels de la croissance économique.
+Assistance technique sur la production d'indicateurs mensuels d'activité économiques (IMAE).
 :::
 ::::
 
@@ -302,7 +307,7 @@ Assistance technique sur la production de comptes nationaux trimestriels désais
 **Togo** (2023)
 :::
 ::: {.column width="90%"}
-Assistance technique sur la production de comptes nationaux trimestriels désaisonnalisés et corrigés des effets jours ouvrables.
+Assistance technique sur la production de comptes nationaux trimestriels et d'indicateurs mensuels d'activité économiques désaisonnalisés et corrigés des effets jours ouvrables.
 :::
 ::::
 
