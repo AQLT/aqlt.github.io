@@ -166,7 +166,7 @@ Summer
 
 - {{< fa brands r-project >}} package `tvCoef`, implementing time-varying coefficients models has never been so easy (2023), [Workshop on Time Series Analysis and Statistical Disclosure Control Methods for Official Statistics](https://aqlt.github.io/slides/2023%20-%2012%20-%20OECD/Slides_AQLT.pdf){target="_blank"}.
 
-- With Abbas R. , Carnot N., Lequien M., Roux S., L'effet macro- économique de la transition bas carbone (2023), Séminaire D2E.
+- With Abbas R., Carnot N., Lequien M., Roux S., L'effet macro-économique de la transition bas carbone (2023), Séminaire D2E.
 
 - Manipuler les moyennes mobiles avec R et JDemetra+ (2023), [Rencontres R](https://aqlt.github.io/slides/2023%20-%2006%20-%20Rencontres%20R/Slides_AQLT.pdf){target="_blank"}.
 
@@ -203,6 +203,16 @@ Summer
 **Trainer on time series analysis with R**
 (12h),
 [CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/analyse-des-series-temporelles-avec-r_44.html){target="_blank"}, Paris.
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+2021-2022
+:::
+::: {.column width="90%"}
+**Lecturer in time series analysis**, [ENSAE](https://www.ensae.fr/en){target="_blank"},
+Paris.
 :::
 ::::
 
@@ -245,7 +255,7 @@ Paris.
 2016
 :::
 ::: {.column width="90%"}
-**Lecturer in the statistical software {{< fa brands r-project >}}**, [ENSAE](https://www.ensae.fr/en){target="_blank"},
+**Lecturer in introduction to the statistical software {{< fa brands r-project >}}**, [ENSAE](https://www.ensae.fr/en){target="_blank"},
 Paris.
 :::
 ::::
@@ -313,11 +323,11 @@ Technical assistance on liquidity forecasting to the Central Bank of Honduras.
 
 :::: {.columns}
 ::: {.column width="10%"}
-**Dakar** (2020)
+**Senegal** (2020)
 :::
 ::: {.column width="90%"}
-**Trainer on manipulation and forecast of time series with {{< fa brands r-project >}}** (5 days),
-[BCEAO](https://www.bceao.int){target="_blank"}, Dakar.
+Trainer on manipulation and forecast of time series with {{< fa brands r-project >}} (5 days),
+[BCEAO](https://www.bceao.int){target="_blank"}.
 :::
 ::::
 
@@ -341,10 +351,10 @@ Member of the Eurostat seasonal adjustment center of Excellence: reflections on 
 
 :::: {.columns}
 ::: {.column width="10%"}
-**Dakar** (2017)
+**Senegal** (2017)
 :::
 ::: {.column width="90%"}
-**Trainer on forecasting models and construction of synthetic indicators**,[BCEAO](https://www.bceao.int){target="_blank"}, Dakar, and [INSEE](https://www.insee.fr/en){target="_blank"},
+Trainer on forecasting models and construction of synthetic indicators, [BCEAO](https://www.bceao.int){target="_blank"}, Dakar, and [INSEE](https://www.insee.fr/en){target="_blank"},
 Paris.
 :::
 ::::

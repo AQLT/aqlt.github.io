@@ -190,7 +190,7 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 
 - {{< fa brands r-project >}} package `tvCoef`, implementing time-varying coefficients models has never been so easy (2023), [Workshop on Time Series Analysis and Statistical Disclosure Control Methods for Official Statistics](https://aqlt.github.io/slides/2023%20-%2012%20-%20OECD/Slides_AQLT.pdf){target="_blank"}.
 
-- Avec Abbas R. , Carnot N., Lequien M., Roux S., L'effet macro- économique de la transition bas carbone (2023), Séminaire D2E.
+- Avec Abbas R. , Carnot N., Lequien M., Roux S., L'effet macro-économique de la transition bas carbone (2023), Séminaire D2E.
 
 - Manipuler les moyennes mobiles avec R et JDemetra+ (2023), [Rencontres R](https://aqlt.github.io/slides/2023%20-%2006%20-%20Rencontres%20R/Slides_AQLT.pdf){target="_blank"}.
 
@@ -236,6 +236,16 @@ L’objectif de ce dossier est de proposer de nouveaux indicateurs de climats de
 ::: {.column width="90%"}
 **Analyse des séries temporelles avec {{< fa brands r-project >}}**,
 [CEPE](https://www.lecepe.fr/formations/methodes-statistiques/series-temporelles/analyse-des-series-temporelles-avec-r_44.html){target="_blank"}, Paris.
+:::
+::::
+
+:::: {.columns}
+::: {.column width="10%"}
+2021-2022
+:::
+::: {.column width="90%"}
+**Chargé de travaux pratiques d'analyse des séries temporelles**, [ENSAE](https://www.ensae.fr){target="_blank"}, 
+Paris.
 :::
 ::::
 
@@ -326,7 +336,7 @@ Assistance technique sur la construction d'indice de production industrielle (IP
 **Macédoine du Nord** (2022)
 :::
 ::: {.column width="90%"}
-Assistance technique sur les prévisions de liquidités aupdrès de la Banque centrale de Macédoine du Nord.
+Assistance technique sur les prévisions de liquidités auprès de la Banque centrale de Macédoine du Nord.
 :::
 ::::
 
@@ -343,11 +353,11 @@ Assistance technique sur les prévisions de liquidités auprès de la Banque cen
 
 :::: {.columns}
 ::: {.column width="10%"}
-**Dakar** (2020)
+**Sénégal** (2020)
 :::
 ::: {.column width="90%"}
-**Formation sur le traitement et la prevision de séries temporelles avec le logiciel {{< fa brands r-project >}}** ;
-[BCEAO](https://www.bceao.int){target="_blank"}, Dakar.
+Formation sur le traitement et la prévision de séries temporelles avec le logiciel {{< fa brands r-project >}},
+[BCEAO](https://www.bceao.int){target="_blank"}.
 :::
 ::::
 
@@ -371,10 +381,10 @@ Assistance technique à une délégation serbe sur les méthodes de désaisonnal
 
 :::: {.columns}
 ::: {.column width="10%"}
-**Dakar** (2017)
+**Sénégal** (2017)
 :::
 ::: {.column width="90%"}
-**Formation sur la construction de modèles de prévisions et d’indicateurs synthétiques**, [BCEAO](https://www.bceao.int){target="_blank"}, Dakar, et [Insee](https://www.insee.fr){target="_blank"},
+Formation sur la construction de modèles de prévisions et d’indicateurs synthétiques, [BCEAO](https://www.bceao.int){target="_blank"}, Dakar, et [Insee](https://www.insee.fr){target="_blank"},
 Paris.
 :::
 ::::
