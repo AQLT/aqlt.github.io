@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /*/quiz.html
+
+Sitemap: https://aqlt.github.io/formation.2023.cvs/sitemap.xml
+Sitemap: https://aqlt.github.io/formation.2023.ast/sitemap.xml
+Sitemap: https://aqlt.github.io/sitemap.xml
