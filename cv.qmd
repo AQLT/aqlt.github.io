@@ -147,6 +147,13 @@ _[International Journal of Operational Research](https://www.inderscience.com/jh
 
 ### Publications
 
+- Quartier-la-Tente A. (2024), « Estimation en temps réel de la tendance-cycle : apport de l’utilisation des moyennes mobiles asymétriques\ », Document de travail méthodologique de l'Insee](https://github.com/InseeFrLab/DT-est-tr-tc){target="_blank"}*.
+
+::: {.callout-resume .callout-warning collapse=true}
+### Résumé
+Cette étude s’intéresse à différentes méthodes de construction de moyennes mobiles pour l’estimation en temps réel de la tendance-cycle et la détection rapide des points de retournement. Nous proposons une comparaison des principales méthodes, en s’appuyant sur une formulation générique de construction de moyennes mobiles. Nous décrivons également deux prolongements possibles aux filtres polynomiaux locaux : l’ajout d’un critère permettant de contrôler le déphasage (délai dans la détection des points de retournement) et une façon de paramétriser localement ces filtres. La comparaison empirique des méthodes montre que : les problèmes d’optimisation de filtres issus des espaces de Hilbert à noyau reproduisant (RKHS) augmentent le déphasage et les révisions des estimations de la tendance-cycle ; modéliser des tendances polynomiales trop complexes introduit plus de révisions sans diminuer le déphasage ; pour les filtres polynomiaux, une paramétrisation locale permet une réduction des révisions et du délai de détection des points de retournement.
+:::
+
 - Babet D., Lequien M., Quartier-la-Tente A. (2022), « L'apport des modèles macroéconomiques pour simuler les effets du renchérissement des prix d’importation de l'énergie\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/6215280?sommaire=6215395){target="_blank"}*, mars, p. 16-18.
 
 - Quartier-la-Tente A. (2022), « Estimation en temps réel de la tendance-cycle : apport de l’utilisation des filtres asymétriques dans la détection des points de retournement\ », *[14e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2022/S27_2_ACTE_QUARTIERLATENTE_JMS2020.pdf){target="_blank"}*.
@@ -161,8 +168,6 @@ Les principaux logiciels d’ajustement saisonnier (X-13ARIMA-SEATS, TRAMO-SEATS
 
 Dans cette article, nous illustrons les réelles difficultés de mise en œuvre de ces modèles à travers des cas concrets : l’estimation d’un effet d’année bissextile, l’estimation de ruptures et l’identification d’un modèle ARIMA.
 :::
-
-- Ladiray D. et Quartier-la-Tente A. (2018), « Du bon usage des modèles Reg-ARIMA en désaisonnalisation\ », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_1_ACTEv3_QUARTIERLATENTE_JMS2018.pdf){target="_blank"}*.
 
 
 - Pham H. et Quartier-la-Tente A. (2018), « Désaisonnaliser les séries très longues par sous-période, gains et choix de la longueur de traitement\ », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_2_ACTEv3_PHAM_JMS2018.pdf){target="_blank"}*.

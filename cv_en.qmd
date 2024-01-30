@@ -146,6 +146,9 @@ Summer
 
 ### Publications
 
+- Quartier-la-Tente A. (2024), “Real-time trend-cycle estimation: the contribution of asymmetric moving averages”, *[Document méthodologique de l'Insee](https://github.com/InseeFrLab/DT-est-tr-tc){target="_blank"}* (French article).
+
+
 - Babet D., Lequien M., Quartier-la-Tente A. (2022), “The contribution of macroeconomic models to simulate the effects of higher energy import prices”, *[Conjoncture in France](https://www.insee.fr/en/statistiques/6323956?sommaire=6216182){target="_blank"}*, March, p. 16-17.
 
 - Quartier-la-Tente A. (2022), “Real-time detection of turning points: the contribution of asymmetric filters to turning-point detection”, *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2022/S27_2_ACTE_QUARTIERLATENTE_JMS2020.pdf){target="_blank"}* (French article).
