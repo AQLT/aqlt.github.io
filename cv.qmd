@@ -186,7 +186,7 @@ _[International Journal of Operational Research](https://www.inderscience.com/jh
 
 * Dortet-Bernadet V., Lenseigne F., Parent C., Quartier-la-Tente A., Stoliaroff-Pépin A-M. et Plouhinec C. (2016), « Après deux ans de turbulences, le secteur aéronautique français peut redécoller\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/fichier/2531682/122016_d1.pdf){target="_blank"}*, décembre, p. 19-37.
 
-<!-- Keep two space to preserve bullet list and CSS formatting -->
+  <!-- Keep two space to preserve bullet list and CSS formatting -->
   ::: {.callout-resume .callout-warning collapse=true}
   ### Résumé
   L’objectif de ce dossier est d’analyser la conjoncture récente du secteur aéronautique. Ses effets d’entraînement sur l’activité nationale française s’y révèlent plus importants qu’ailleurs et l’économie française s’avère la plus dépendante aux fluctuations de la demande mondiale d’avions. Pourtant, la construction aéronautique française n’a pas profité du récent essor du trafic aérien et s’est repliée en 2014 et 2015. Ce repli tient à la fois à des problèmes d’offre (constructeurs et équipementiers à la limite de leur capacité de production, problèmes d’approvisionnement) et de demande (notamment pour les avions d’affaires et d’hélicoptères). Toutefois, ces problèmes semblent se résoudre peu à peu fin 2016 : production et exportations aéronautiques peuvent maintenant redécoller, ne serait-ce que pour rattraper le retard accumulé dans les livraisons.
@@ -205,11 +205,11 @@ _[International Journal of Operational Research](https://www.inderscience.com/jh
 
 ### Interventions
 
-- {{< fa brands r-project >}} package `tvCoef`, implementing time-varying coefficients models has never been so easy (2023), [Workshop on Time Series Analysis and Statistical Disclosure Control Methods for Official Statistics](https://aqlt.github.io/slides/2023%20-%2012%20-%20OECD/Slides_AQLT.pdf){target="_blank"}.
+- {{< fa brands r-project >}} package `tvCoef`, implementing time-varying coefficients models has never been so easy (2023), [Workshop on Time Series Analysis and Statistical Disclosure Control Methods for Official Statistics](https://aqlt.github.io/slides/2023%20-%2012%20-%20OECD/Slides.pdf){target="_blank"}.
 
 - Avec Abbas R. , Carnot N., Lequien M., Roux S., L'effet macro-économique de la transition bas carbone (2023), Séminaire D2E.
 
-- Manipuler les moyennes mobiles avec R et JDemetra+ (2023), [Rencontres R](https://aqlt.github.io/slides/2023%20-%2006%20-%20Rencontres%20R/Slides_AQLT.pdf){target="_blank"}.
+- Manipuler les moyennes mobiles avec R et JDemetra+ (2023), [Rencontres R](https://aqlt.github.io/slides/2023%20-%2006%20-%20Rencontres%20R/Slides_rr.pdf){target="_blank"}.
 
 - Avec [du Campe de Rosamel C.](https://www.linkedin.com/in/claire-de-rosamel-61a046202/) (stagiaire encadrée pendant 6 mois), Utilisation de modèles de régression à coefficients variant dans le temps pour la prévision conjoncturelle (2023), [Atelier D2E](https://aqlt.github.io/AteliertvCoef/){target="_blank"}.
 
@@ -226,11 +226,12 @@ _[International Journal of Operational Research](https://www.inderscience.com/jh
 
 - Animation et participation à un Hackathon sur RJDemetra (deux jours, 2019), Deutsche Bundesbank, Francfort.
 
-- RJDemetra: an R interface to JDemetra+ (2019), [Seasonal Adjustment Center of Excellence (SACE) Meeting #6](https://ec.europa.eu/eurostat/cros/system/files/point_3_-_rjdemetra.pdf), [New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/190315_rjdemetra.pdf){target="_blank"}, Seasonal Adjustment Expert Group (SAEG), [useR!2019](http://user2019.r-project.org/static/pres/t256274.pdf){target="_blank"}.
+- RJDemetra: an R interface to JDemetra+ (2019), [Seasonal Adjustment Center of Excellence (SACE) Meeting #6](https://aqlt.github.io/slides/2019%20-%2003%20-%20SAEG%20and%20SAUG/rjdemetra_saeg.pdf), [New Techniques and Technologies for Statistics  (NTTS)](https://aqlt.github.io/slides/2019%20-%2003%20-%20NTTS/rjdemetra.pdf){target="_blank"}, Seasonal Adjustment Expert Group (SAEG), [useR!2019](http://user2019.r-project.org/static/pres/t256274.pdf){target="_blank"}.
 
-- Avec Ladiray D., (In)Stability of Reg-ARIMA Models for Seasonal Adjustment (2019), *[New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/point_7.1_-_insee_-_instability_of_reg-arima_estimations.pdf){target="_blank"}*.
 
-- R and JDemetra+: RJDemetra and rjdqa (2018), [Seasonal Adjustment Center of Excellence (SACE) Meeting #5](https://ec.europa.eu/eurostat/cros/system/files/point_6.2_-_insee_-_rjdemetra.pdf).
+- Avec Ladiray D., (In)Stability of Reg-ARIMA Models for Seasonal Adjustment (2019), *[New Techniques and Technologies for Statistics  (NTTS)](https://aqlt.github.io/slides/2018%20-%2009%20-%20SACE/RegARIMA%20estimation/2018-10-04%20(In)Stability%20of%20Reg-Arima%20Estimations.pdf){target="_blank"}*.
+
+- R and JDemetra+: RJDemetra and rjdqa (2018), [Seasonal Adjustment Center of Excellence (SACE) Meeting #5](https://aqlt.github.io/slides/2018%20-%2009%20-%20SACE/R%20and%20JD%2B/rjdemetra.pdf).
 
 
 ## {{< fa chalkboard-teacher >}} Enseignements 
@@ -258,7 +259,7 @@ _[International Journal of Operational Research](https://www.inderscience.com/jh
 
 :::: {.columns}
 ::: {.column width="10%"}
-2021-2022
+2021 - 2022
 :::
 ::: {.column width="90%"}
 **Chargé de travaux pratiques d'analyse des séries temporelles**, [ENSAE](https://www.ensae.fr){target="_blank"}, 
@@ -311,96 +312,97 @@ Paris.
 ## {{< fa globe-europe >}} Coopérations
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Maurice** (2023)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Assistance technique sur la production d'indicateurs mensuels d'activité économiques (IMAE).
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Cameroun** (2023)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Assistance technique sur la production de comptes nationaux trimestriels désaisonnalisés et corrigés des effets jours ouvrables.
 :::
 ::::
 
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Togo** (2023)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Assistance technique sur la production de comptes nationaux trimestriels et d'indicateurs mensuels d'activité économiques désaisonnalisés et corrigés des effets jours ouvrables.
 :::
 ::::
 
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Mauritanie** (2022)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Assistance technique sur la construction d'indice de production industrielle (IPI) et sur la désaisonnalisation
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Macédoine du Nord** (2022)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Assistance technique sur les prévisions de liquidités auprès de la Banque centrale de Macédoine du Nord.
 :::
 ::::
 
+<!-- [**Macédoine du Nord** (2022)]{.aside} Assistance technique sur les prévisions de liquidités auprès de la Banque centrale de Macédoine du Nord. -->
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Honduras** (2022)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Assistance technique sur les prévisions de liquidités auprès de la Banque centrale du Honduras.
 :::
 ::::
 
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Sénégal** (2020)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Formation sur le traitement et la prévision de séries temporelles avec le logiciel {{< fa brands r-project >}},
 [BCEAO](https://www.bceao.int){target="_blank"}.
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Europe** (2017-)
 :::
-::: {.column width="90%"}
-Membre du centre d'excellence en désaisonnalisation d'Eurostat : réflexions sur les méthodes de désaisonnalisation ; développement de packages R autour de JDemetra+, maintenance et distribution. Assistance technique à plusieurs pays européens.
+::: {.column width="85%"}
+Membre du centre d'excellence en désaisonnalisation d'Eurostat\ : réflexions sur les méthodes de désaisonnalisation ; développement de packages R autour de JDemetra+, maintenance et distribution. Assistance technique à plusieurs pays européens.
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Paris** (2018)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Assistance technique à une délégation serbe sur les méthodes de désaisonnalisation.
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Sénégal** (2017)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Formation sur la construction de modèles de prévisions et d’indicateurs synthétiques, [BCEAO](https://www.bceao.int){target="_blank"}, Dakar, et [Insee](https://www.insee.fr){target="_blank"},
 Paris.
 :::
@@ -408,13 +410,11 @@ Paris.
 
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Paris** (2016)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Assistance technique à une délégation serbe sur l'utilisation des enquêtes de conjoncture pour la prévision.
 :::
 ::::
 
-Term 1
-:   Definition 1

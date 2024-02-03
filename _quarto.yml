@@ -21,6 +21,7 @@ format:
     theme: Litera #Spacelab
     css: ["css/index.css", "css/commun.css", "css/callout.css"]
     toc: true
+    # toc-location: left
 
 editor: source
 

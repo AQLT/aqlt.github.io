@@ -167,11 +167,11 @@ Summer
 ### Interventions
 
 
-- {{< fa brands r-project >}} package `tvCoef`, implementing time-varying coefficients models has never been so easy (2023), [Workshop on Time Series Analysis and Statistical Disclosure Control Methods for Official Statistics](https://aqlt.github.io/slides/2023%20-%2012%20-%20OECD/Slides_AQLT.pdf){target="_blank"}.
+- {{< fa brands r-project >}} package `tvCoef`, implementing time-varying coefficients models has never been so easy (2023), [Workshop on Time Series Analysis and Statistical Disclosure Control Methods for Official Statistics](https://aqlt.github.io/slides/2023%20-%2012%20-%20OECD/Slides.pdf){target="_blank"}.
 
 - With Abbas R., Carnot N., Lequien M., Roux S., L'effet macro-économique de la transition bas carbone (2023), Séminaire D2E.
 
-- Manipuler les moyennes mobiles avec R et JDemetra+ (2023), [Rencontres R](https://aqlt.github.io/slides/2023%20-%2006%20-%20Rencontres%20R/Slides_AQLT.pdf){target="_blank"}.
+- Manipuler les moyennes mobiles avec R et JDemetra+ (2023), [Rencontres R](https://aqlt.github.io/slides/2023%20-%2006%20-%20Rencontres%20R/Slides_rr.pdf){target="_blank"}.
 
 - With [du Campe de Rosamel C.](https://www.linkedin.com/in/claire-de-rosamel-61a046202/) (6-month internship), Utilisation de modèles de régression à coefficients variant dans le temps pour la prévision conjoncturelle (2023), [Atelier D2E](https://aqlt.github.io/AteliertvCoef/){target="_blank"}.
 
@@ -188,11 +188,11 @@ Summer
 
 - Leading and participating in a Hackathon on RJDemetra (two days, 2019), Deutsche Bundesbank, Francfort.
 
-- RJDemetra: an R interface to JDemetra+ (2019), [Seasonal Adjustment Center of Excellence (SACE) Meeting #6](https://ec.europa.eu/eurostat/cros/system/files/point_3_-_rjdemetra.pdf), [New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/190315_rjdemetra.pdf){target="_blank"}, Seasonal Adjustment Expert Group (SAEG), [useR!2019](http://user2019.r-project.org/static/pres/t256274.pdf){target="_blank"}.
+- RJDemetra: an R interface to JDemetra+ (2019), [Seasonal Adjustment Center of Excellence (SACE) Meeting #6](https://aqlt.github.io/slides/2019%20-%2003%20-%20SAEG%20and%20SAUG/rjdemetra_saeg.pdf), [New Techniques and Technologies for Statistics  (NTTS)](https://aqlt.github.io/slides/2019%20-%2003%20-%20NTTS/rjdemetra.pdf){target="_blank"}, Seasonal Adjustment Expert Group (SAEG), [useR!2019](http://user2019.r-project.org/static/pres/t256274.pdf){target="_blank"}.
 
-- Ladiray D. et Quartier-la-Tente A. (2019), (In)Stability of Reg-ARIMA Models for Seasonal Adjustment, *[New Techniques and Technologies for Statistics  (NTTS)](https://ec.europa.eu/eurostat/cros/system/files/point_7.1_-_insee_-_instability_of_reg-arima_estimations.pdf){target="_blank"}*.
+- Ladiray D. et Quartier-la-Tente A. (2019), (In)Stability of Reg-ARIMA Models for Seasonal Adjustment, *[New Techniques and Technologies for Statistics  (NTTS)](https://aqlt.github.io/slides/2018%20-%2009%20-%20SACE/RegARIMA%20estimation/2018-10-04%20(In)Stability%20of%20Reg-Arima%20Estimations.pdf){target="_blank"}*.
 
-- R and JDemetra+: RJDemetra and rjdqa (2018), [Seasonal Adjustment Center of Excellence (SACE) Meeting #5](https://ec.europa.eu/eurostat/cros/system/files/point_6.2_-_insee_-_rjdemetra.pdf).
+- R and JDemetra+: RJDemetra and rjdqa (2018), [Seasonal Adjustment Center of Excellence (SACE) Meeting #5](https://aqlt.github.io/slides/2018%20-%2009%20-%20SACE/R%20and%20JD%2B/rjdemetra.pdf).
 
 
 ## {{< fa chalkboard-teacher >}} Trainings 
