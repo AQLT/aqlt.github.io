@@ -268,28 +268,28 @@ Paris.
 
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Mauritius** (2023)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Technical assistance on the production monthly indicators of economic growth (MIEG).
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Cameroun** (2023)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Technical assistance on the production of seasonally adjusted and working day adjusted of Quarterly National Accounts (QNA).
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Togo** (2023)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Technical assistance on the production of seasonally adjusted and working day adjusted of Quarterly National Accounts (QNA) and Monthly Indicators of Economic Growth (MIEG).
 :::
 ::::
@@ -297,66 +297,66 @@ Technical assistance on the production of seasonally adjusted and working day ad
 
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Mauritania** (2022)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Technical assistance on the construction of index of industrial production (IIP) and on seasonal adjustment.
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **North Macedonia** (2022)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Technical assistance on liquidity forecasting to the National Bank of North Macedonia.
 :::
 ::::
 
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Honduras** (2022)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Technical assistance on liquidity forecasting to the Central Bank of Honduras.
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Senegal** (2020)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Trainer on manipulation and forecast of time series with {{< fa brands r-project >}} (5 days),
 [BCEAO](https://www.bceao.int){target="_blank"}.
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Paris** (2018)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Technical assistance on seasonal adjustment methods to a Serbian Delegation.
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Europe** (2017-)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Member of the Eurostat seasonal adjustment center of Excellence: reflections on seasonal adjustment methods; development of R packages around JDemetra+, maintenance and distribution. Technical assistance to several European countries.
 :::
 ::::
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Senegal** (2017)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Trainer on forecasting models and construction of synthetic indicators, [BCEAO](https://www.bceao.int){target="_blank"}, Dakar, and [INSEE](https://www.insee.fr/en){target="_blank"},
 Paris.
 :::
@@ -364,10 +364,10 @@ Paris.
 
 
 :::: {.columns}
-::: {.column width="10%"}
+::: {.column width="15%"}
 **Paris** (2016)
 :::
-::: {.column width="90%"}
+::: {.column width="85%"}
 Technical assistance on the use of business surveys in forecasting National Accounts to a Serbian Delegation.
 :::
 ::::

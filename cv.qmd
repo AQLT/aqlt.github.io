@@ -89,7 +89,7 @@ _[International Journal of Operational Research](https://www.inderscience.com/jh
 2019 - 2021
 :::
 ::: {.column width="90%"}
-**École Nationale de la Statistique et de l’Administration Économique** ([ENSAE](https://www.ensae.fr){target="_blank"}).
+**École Nationale de la Statistique et de l’Administration Économique** ([ENSAE](https://www.ensae.fr){target="_blank"}), voie Data Science, Statistique et Apprentissage
 :::
 ::::
 
@@ -155,6 +155,9 @@ _[International Journal of Operational Research](https://www.inderscience.com/jh
 
   Cette étude est entièrement reproductible et tous les codes sont disponibles sous <https://github.com/InseeFrLab/DT-est-tr-tc>.
   :::
+
+* Abbas R.,  Carnot N.,  Lequien M., Quartier-la-Tente A., Roux S. (2023),
+ contribution au rapport Mahfouz - Pisani-Ferry sur [l'effet macro-économique de la transition bas carbone](https://www.strategie.gouv.fr/publications/incidences-economiques-de-laction-climat){target="_blank"}, rapport de [synthèse](https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/2023-incidences-economiques-rapport-pisani-5juin.pdf){target="_blank"} p79-81 et rapport thématique sur le [marché du travail](https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2023-les_incidences_economiques_de_laction_pour_le_climat-thematique-capital.pdf){target="_blank"} p47-57.
 
 * Babet D., Lequien M., Quartier-la-Tente A. (2022), « L'apport des modèles macroéconomiques pour simuler les effets du renchérissement des prix d’importation de l'énergie\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/6215280?sommaire=6215395){target="_blank"}*, mars, p. 16-18.
 
@@ -357,8 +360,6 @@ Assistance technique sur la construction d'indice de production industrielle (IP
 Assistance technique sur les prévisions de liquidités auprès de la Banque centrale de Macédoine du Nord.
 :::
 ::::
-
-<!-- [**Macédoine du Nord** (2022)]{.aside} Assistance technique sur les prévisions de liquidités auprès de la Banque centrale de Macédoine du Nord. -->
 
 :::: {.columns}
 ::: {.column width="15%"}

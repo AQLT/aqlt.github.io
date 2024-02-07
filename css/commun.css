@@ -4,3 +4,6 @@
 .nav-item {
   text-transform: uppercase;
 }
+div.column {
+  word-wrap: break-word;
+}
