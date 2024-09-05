@@ -6,6 +6,15 @@ title: "Curriculum vitæ"
 
 :::: {.columns}
 ::: {.column width="10%"}
+2024-
+:::
+::: {.column width="90%"}
+**Head of the Summary, Financial Transactions and Public Debt Tables sector**,
+[DGFIP](https://www.economie.gouv.fr/dgfip){target="_blank"}, Paris.
+:::
+
+:::: {.columns}
+::: {.column width="10%"}
 2021-2024
 :::
 ::: {.column width="90%"}
