@@ -178,17 +178,18 @@ Ainsi, une analyse économique des paramètres estimés demeure essentielle.
   ::: {.callout-resume .callout-warning collapse=true}
   ### Résumé
   Avec un modèle de choix optimal d'investissement – ou d'échouage – en capital brun, émetteur de gaz à effet de serre, ou vert, sans émissions, nous décrivons les transitions optimales vers la neutralité carbone qui respectent des contraintes climatiques de type plafonds ponctuels d'émissions (Fit for 55) ou budget carbone. Nous montrons que :
-
+  
   i) un échouage anticipé ne peut pas se produire avec des cibles ponctuelles ;
 
   ii) pour limiter le réchauffement à un niveau donné, introduire explicitement cette contrainte sous la forme d'un budget carbone restant minimise le coût économique associé, induisant un échouage initial élevé avec des budgets limités. Des plafonds d'émissions réguliers dès la première année, et choisis à partir des émissions de cette trajectoire optimale, entraînent une trajectoire proche ;
-
+  
   iii) à cumul d'émissions donné, retarder la transition augmente les coûts et l'échouage ;
 
   iv) l'investissement total durant et après la transition est inférieur à celui de l'état initial.
-
- Tous les codes utilisés sont disponibles sous <https://github.com/InseeFrLab/DT-way-to-net-zero>.
+  
+  Tous les codes utilisés sont disponibles sous <https://github.com/InseeFrLab/DT-way-to-net-zero>.
   :::
+  
   
 * Quartier-la-Tente A. (2024), « Estimation en temps réel de la tendance-cycle : apport de l'utilisation des moyennes mobiles asymétriques\ », *[Document de travail méthodologique de l'Insee](https://www.insee.fr/fr/statistiques/7759578){target="_blank"}*.
 
