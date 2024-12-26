@@ -159,6 +159,13 @@ _[International Journal of Operational Research](https://www.inderscience.com/jh
 
 ### Publications
 
+* Quartier-la-Tente, A. (2024). Improving Real-Time Trend Estimates Using Local Parametrization of Polynomial Regression Filters. [*Journal of Official Statistics, 40*(4), 685-715](https://doi.org/10.1177/0282423X241283207){target="_blank"}*.
+
+  ::: {.callout-resume .callout-warning collapse=true}
+  ### Résumé
+  This paper examines and compares real-time estimates of the trend-cycle component using moving averages constructed with local polynomial regression. It enables the reproduction of Henderson’s symmetric and Musgrave’s asymmetric filters used in the X-13ARIMA-SEATS seasonal adjustment algorithm. This paper proposes two extensions of local polynomial filters for real-time trend-cycle estimates: first including a timeliness criterion to minimize the phase shift; second with procedure for parametrizing asymmetric filters locally while they are generally parametrized globally, which can be suboptimal around turning points. An empirical comparison, based on simulated and real data, shows that modeling polynomial trends that are too complex introduces more revisions without reducing the phase shift, and that local parametrization reduces the delay in detecting turning points and reduces revisions. The results are reproducible and all the methods can be easily applied using the R package `rjd3filters`.
+  :::
+
 * Quartier-la-Tente A. (2024), « Utilisation de modèles de régression à coefficients variant dans le temps pour la prévision conjoncturelle\ », *[Document de travail de l'Insee](https://www.insee.fr/fr/statistiques/8210914){target="_blank"}*.
 
   ::: {.callout-resume .callout-warning collapse=true}
@@ -173,7 +180,7 @@ Ainsi, une analyse économique des paramètres estimés demeure essentielle.
   Cette étude est entièrement reproductible et tous les codes utilisés sont disponibles sous <https://github.com/InseeFrLab/DT-tvcoef>.
   :::
 
-* Abbas R.,  Carnot N.,  Lequien M., Quartier-la-Tente A., Roux S. (2024), « En chemin vers la neutralité carbone. Mais quel chemin ?\ », *[Document de travail de l'Insee](https://www.insee.fr/fr/statistiques/8203278){target="_blank"}*.
+* Abbas R.,  Carnot N.,  Lequien M., Quartier-la-Tente A., Roux S. (2024), « En chemin vers la neutralité carbone. Mais quel chemin ?\ », [*Economie et Statistique n°544*](https://www.insee.fr/fr/statistiques/8302689?sommaire=8302703){target="_blank"} et *[Document de travail de l'Insee](https://www.insee.fr/fr/statistiques/8203278){target="_blank"}*.
 
   ::: {.callout-resume .callout-warning collapse=true}
   ### Résumé

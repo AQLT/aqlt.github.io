@@ -279,25 +279,24 @@ gtag('config', 'G-X652XRGDPL', { 'anonymize_ip': true});
 <section id="publications" class="level3">
 <h3 class="anchored" data-anchor-id="publications">Publications</h3>
 <ul>
-<li><p>Quartier-la-Tente A. (2024), “Using regression models with time-varying coefficients for short-term economic forecasting”, <em><a href="https://www.insee.fr/en/statistiques/8211128" target="_blank">INSEE working paper</a></em> (French article).</p>
+<li><p>Quartier-la-Tente, A. (2024). Improving Real-Time Trend Estimates Using Local Parametrization of Polynomial Regression Filters. <a href="https://doi.org/10.1177/0282423X241283207" target="_blank"><em>Journal of Official Statistics, 40</em>(4), 685-715</a>*.</p>
 <div class="callout callout-style-default callout-resume no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Abstract
+Résumé
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>This study describes three methods for estimating linear regression models with time-varying coefficients: piecewise regression, local regression, and regression with stochastic coefficients (state-space modeling). It also details their implementation in R using the <code>tvCoef</code> package. Through a comparative analysis of around thirty quarterly forecasting models, we show that the use of these methods, especially thanks to the state-space modeling, reduces forecast errors when breakpoints are present in the coefficients. Moreover, even when traditional tests conclude that the coefficients are stable, regression with stochastic coefficients can still help reduce forecast errors. However, uncertainties related to estimating certain hyperparameters can increase real-time forecast errors, especially for local regression. Thus, an economic analysis of estimated parameters remains essential.</p>
-<p>This study is fully reproducible and all the codes used are available under <a href="https://github.com/InseeFrLab/DT-tvcoef" class="uri">https://github.com/InseeFrLab/DT-tvcoef</a>.</p>
+<p>This paper examines and compares real-time estimates of the trend-cycle component using moving averages constructed with local polynomial regression. It enables the reproduction of Henderson’s symmetric and Musgrave’s asymmetric filters used in the X-13ARIMA-SEATS seasonal adjustment algorithm. This paper proposes two extensions of local polynomial filters for real-time trend-cycle estimates: first including a timeliness criterion to minimize the phase shift; second with procedure for parametrizing asymmetric filters locally while they are generally parametrized globally, which can be suboptimal around turning points. An empirical comparison, based on simulated and real data, shows that modeling polynomial trends that are too complex introduces more revisions without reducing the phase shift, and that local parametrization reduces the delay in detecting turning points and reduces revisions. The results are reproducible and all the methods can be easily applied using the R package <code>rjd3filters</code>.</p>
 </div>
 </div>
 </div></li>
-<li><p>Abbas R., Carnot N., Lequien M., Quartier-la-Tente A., Roux S. (2024), “On the way to net zero. But which way?”, <em><a href="https://www.insee.fr/en/statistiques/8203306" target="_blank">INSEE working paper</a></em>.</p>
+<li><p>Quartier-la-Tente A. (2024), “Using regression models with time-varying coefficients for short-term economic forecasting”, <em><a href="https://www.insee.fr/en/statistiques/8211128" target="_blank">INSEE working paper</a></em> (French article).</p>
 <div class="callout callout-style-default callout-resume no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -309,6 +308,24 @@ Abstract
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This study describes three methods for estimating linear regression models with time-varying coefficients: piecewise regression, local regression, and regression with stochastic coefficients (state-space modeling). It also details their implementation in R using the <code>tvCoef</code> package. Through a comparative analysis of around thirty quarterly forecasting models, we show that the use of these methods, especially thanks to the state-space modeling, reduces forecast errors when breakpoints are present in the coefficients. Moreover, even when traditional tests conclude that the coefficients are stable, regression with stochastic coefficients can still help reduce forecast errors. However, uncertainties related to estimating certain hyperparameters can increase real-time forecast errors, especially for local regression. Thus, an economic analysis of estimated parameters remains essential.</p>
+<p>This study is fully reproducible and all the codes used are available under <a href="https://github.com/InseeFrLab/DT-tvcoef" class="uri">https://github.com/InseeFrLab/DT-tvcoef</a>.</p>
+</div>
+</div>
+</div></li>
+<li><p>Abbas R., Carnot N., Lequien M., Quartier-la-Tente A., Roux S. (2024), “On the way to net zero. But which way?”, <a href="https://www.insee.fr/en/statistiques/8305263?sommaire=8305267" target="_blank"><em>Economics and Statistics n°544</em></a> and <em><a href="https://www.insee.fr/en/statistiques/8203306" target="_blank">INSEE working paper</a></em>.</p>
+<div class="callout callout-style-default callout-resume no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Abstract
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>With an optimal investment – or stranding – choice model in carbon-intensive (brown) capital, which emits greenhouse gases, or in emissions-free (green) capital, we describe the optimal transitions to carbon neutrality that comply with climate constraints such as emission caps for a given date (Fit for 55) or carbon budgets. We show that:</p>
 <ol type="i">
@@ -323,7 +340,7 @@ Abstract
 </div></li>
 <li><p>Quartier-la-Tente A. (2024), “Real-time trend-cycle estimation: the contribution of asymmetric moving averages”, <em><a href="https://www.insee.fr/fr/statistiques/7759578" target="_blank">INSEE methodological working paper</a></em> (French article).</p>
 <div class="callout callout-style-default callout-resume no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -332,7 +349,7 @@ Abstract
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>This paper focuses on different approaches to build moving averages for real-time trend-cycle estimation and fast turning point detection. We propose a comparison of the main methods, based on a general unifying framework to derive linear filters. We also describe two possible extensions to local polynomial filters: the addition of a timeliness criterion to control the phase shift (delay in the detection of turning points) and a way to locally parameterize these filters. The empirical comparison of the methods shows that: the optimization problems of the filters from the Reproducing Kernel Hilbert Space (RKHS) theory increase the phase shift and the revisions of the trend-cycle estimates; modeling polynomial trends that are too complex introduces more revisions without decreasing the phase shift; for polynomial filters, a local parameterization reduces the phase shift and the revisions.</p>
 <p>This study is fully reproducible and all the codes used are available under <a href="https://github.com/InseeFrLab/DT-est-tr-tc" class="uri">https://github.com/InseeFrLab/DT-est-tr-tc</a>.</p>

@@ -156,6 +156,13 @@ Summer
 
 ### Publications
 
+- Quartier-la-Tente, A. (2024). Improving Real-Time Trend Estimates Using Local Parametrization of Polynomial Regression Filters. [*Journal of Official Statistics, 40*(4), 685-715](https://doi.org/10.1177/0282423X241283207){target="_blank"}*.
+
+  ::: {.callout-resume .callout-warning collapse=true}
+  ### Résumé
+  This paper examines and compares real-time estimates of the trend-cycle component using moving averages constructed with local polynomial regression. It enables the reproduction of Henderson’s symmetric and Musgrave’s asymmetric filters used in the X-13ARIMA-SEATS seasonal adjustment algorithm. This paper proposes two extensions of local polynomial filters for real-time trend-cycle estimates: first including a timeliness criterion to minimize the phase shift; second with procedure for parametrizing asymmetric filters locally while they are generally parametrized globally, which can be suboptimal around turning points. An empirical comparison, based on simulated and real data, shows that modeling polynomial trends that are too complex introduces more revisions without reducing the phase shift, and that local parametrization reduces the delay in detecting turning points and reduces revisions. The results are reproducible and all the methods can be easily applied using the R package `rjd3filters`.
+  :::
+  
 - Quartier-la-Tente A. (2024), “Using regression models with time-varying coefficients for short-term economic forecasting”, *[INSEE working paper](https://www.insee.fr/en/statistiques/8211128){target="_blank"}* (French article).
 
   ::: {.callout-resume .callout-warning collapse=true}
@@ -170,7 +177,7 @@ Thus, an economic analysis of estimated parameters remains essential.
   This study is fully reproducible and all the codes used are available under <https://github.com/InseeFrLab/DT-tvcoef>.
   :::
   
-- Abbas R.,  Carnot N.,  Lequien M., Quartier-la-Tente A., Roux S. (2024), “On the way to net zero. But which way?”, *[INSEE working paper](https://www.insee.fr/en/statistiques/8203306){target="_blank"}*.
+- Abbas R.,  Carnot N.,  Lequien M., Quartier-la-Tente A., Roux S. (2024), “On the way to net zero. But which way?”, [*Economics and Statistics n°544*](https://www.insee.fr/en/statistiques/8305263?sommaire=8305267){target="_blank"} and *[INSEE working paper](https://www.insee.fr/en/statistiques/8203306){target="_blank"}*.
 
   ::: {.callout-resume .callout-warning collapse=true}
   ### Abstract
