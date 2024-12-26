@@ -156,7 +156,7 @@ Summer
 
 ### Publications
 
-- Quartier-la-Tente, A. (2024). Improving Real-Time Trend Estimates Using Local Parametrization of Polynomial Regression Filters. [*Journal of Official Statistics, 40*(4), 685-715](https://doi.org/10.1177/0282423X241283207){target="_blank"}*.
+- Quartier-la-Tente, A. (2024). Improving Real-Time Trend Estimates Using Local Parametrization of Polynomial Regression Filters. [*Journal of Official Statistics, 40*(4), 685-715](https://doi.org/10.1177/0282423X241283207){target="_blank"}.
 
   ::: {.callout-resume .callout-warning collapse=true}
   ### Résumé
