@@ -1,0 +1,11 @@
+---
+lang: fr
+language: 
+ title-block-author-single: Auteur
+comments: false
+---
+
+# 2025
+
+- Juin 2025 : [Analyse de séries temporelles avec {{< fa brands r-project >}}](ast/) (Cepe)  ![](ast/img/logo.png){width="10%"}  
+
