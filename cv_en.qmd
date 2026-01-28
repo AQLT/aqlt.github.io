@@ -3,81 +3,28 @@ title: "Curriculum vitæ"
 ---
 
 ## {{< fa briefcase >}} Professional experience 
+```{r}
+#| echo: false
+#| results: asis
 
-:::: {.columns}
-::: {.column width="10%"}
-2024-
-:::
-::: {.column width="90%"}
-**Head of the Summary, Financial Transactions and Public Debt Tables sector**,
-[DGFIP](https://www.economie.gouv.fr/dgfip){target="_blank"}, Paris.
-:::
-::::
+data <- openxlsx::read.xlsx("CV.xlsx",sheet = "Experience")
+data[is.na(data[,"Lieu_en"]), "Lieu_en"] <- data[is.na(data[,"Lieu_en"]), "Lieu"]
+data[is.na(data[,"Date_en"]), "Date_en"] <- data[is.na(data[,"Date_en"]), "Date"]
 
-:::: {.columns}
-::: {.column width="10%"}
-2021-2024
-:::
-::: {.column width="90%"}
-**Data economist**,
-[Insee](https://www.insee.fr){target="_blank"}, Paris.
-:::
-::::
-
-
-:::: {.columns}
-::: {.column width="10%"}
-Summer 
-2020
-:::
-::: {.column width="90%"}
-**Intern at the division Research and Development of the [NBB](https://www.nbb.be/fr){target="_blank"} (National Bank of Belgium)**, Bruxelles, Belgique.  
-<!-- Étude de l'apport des filtres asymétriques dans la détection en temps réel des points de retournement. -->
-:::
-::::
-
-:::: {.columns}
-::: {.column width="10%"}
-2017 - 2019
-:::
-::: {.column width="90%"}
-**Methodologist on Seasonal and Working Day Adjustments (SA-WDA)**,
-[Insee](https://www.insee.fr){target="_blank"}, Paris.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="10%"}
-2019 -
-:::
-::: {.column width="90%"}
-**Reviewer for the journals**, [Statéco](https://www.insee.fr/en/information/2404098){target="_blank"} _[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_,
-_[Statistical Journal of the IAOS](https://officialstatistics.com){target="_blank"}_ 
-and 
-_[International Journal of Operational Research](https://www.inderscience.com/jhome.php?jcode=ijor){target="_blank"}_.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="10%"}
-2015 - 2017
-:::
-::: {.column width="90%"}
-**Short-term economic analysis officer in the manufacturing industry**, [INSEE](https://www.insee.fr/en){target="_blank"}, Paris.
-:::
-::::
-
-
-:::: {.columns}
-::: {.column width="10%"}
-Summer
-2013
-:::
-::: {.column width="90%"}
-**Intern research officer at the International Relations Department at the [INE](https://www.ine.es){target="_blank"} (Instituto Nacional de Estadística)**, Madrid, Spain.
-<!-- Étude d’indicateurs économiques et financiers des *Special Data Dissemination Standard* (SDDS) — Norme Spéciale de Diffusion de Données — du FMI. -->
-:::
-::::
+for (i in 1:nrow(data)) {
+  date <- data[i, "Date_en"]
+  intitule <- data[i, "Intitulé_en"]
+  lieu <- data[i, "Lieu_en"]
+  cat(":::: {.columns}\n")
+  cat("::: {.column width=\"10%\"}\n")
+  cat(date, "\n")
+  cat(":::\n")
+  cat("::: {.column width=\"90%\"}\n")
+  cat(gsub("\\.\\.", ".", sprintf("**%s**, %s.\n", intitule, lieu)))
+  cat(":::\n")
+  cat("::::\n\n")
+}
+```
 
 ## {{< fa user-graduate >}} Education 
 
@@ -146,7 +93,7 @@ Summer
 2010 - 2012
 :::
 ::: {.column width="90%"}
-**Post-secondary preparatory school in Mathematics, Physics and Computer Science (France’s Grandes écoles)**, [Lycée Carnot](http://lyc21-carnot.ac-dijon.fr){target="_blank"}, Dijon.
+**Post-secondary preparatory school in Mathematics, Physics and Computer Science (France's Grandes écoles)**, [Lycée Carnot](http://lyc21-carnot.ac-dijon.fr){target="_blank"}, Dijon.
 :::
 ::::
 
@@ -156,74 +103,31 @@ Summer
 
 ### Publications
 
-- Quartier-la-Tente, A. (2024). Improving Real-Time Trend Estimates Using Local Parametrization of Polynomial Regression Filters. [*Journal of Official Statistics, 40*(4), 685-715](https://doi.org/10.1177/0282423X241283207){target="_blank"}.
+```{r}
+#| echo: false
+#| results: asis
 
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Résumé
-  This paper examines and compares real-time estimates of the trend-cycle component using moving averages constructed with local polynomial regression. It enables the reproduction of Henderson’s symmetric and Musgrave’s asymmetric filters used in the X-13ARIMA-SEATS seasonal adjustment algorithm. This paper proposes two extensions of local polynomial filters for real-time trend-cycle estimates: first including a timeliness criterion to minimize the phase shift; second with procedure for parametrizing asymmetric filters locally while they are generally parametrized globally, which can be suboptimal around turning points. An empirical comparison, based on simulated and real data, shows that modeling polynomial trends that are too complex introduces more revisions without reducing the phase shift, and that local parametrization reduces the delay in detecting turning points and reduces revisions. The results are reproducible and all the methods can be easily applied using the R package `rjd3filters`.
-  :::
-  
-- Quartier-la-Tente A. (2024), “Using regression models with time-varying coefficients for short-term economic forecasting”, *[INSEE working paper](https://www.insee.fr/en/statistiques/8211128){target="_blank"}* (French article).
+data <- openxlsx::read.xlsx("CV.xlsx",sheet = "Publications")
+data[is.na(data$Title), "Title"] <- paste(data[is.na(data$Title), "Titre"], "(French article)") 
+for (i in 1:nrow(data)) {
+  titre <- sprintf("* %s.", data[i,"Title"])
+  titre <- gsub("\\.\\.", ".", titre)
+  resume <- data[i,"Summary"]
+  cat(titre, "\n\n")
+  if( !all(is.na(resume))) {
+    cat("::: {.callout-resume .callout-warning collapse=true}\n")
+    cat("### Summary\n")
+    cat(resume, "\n")
+    cat(":::\n\n")
+  }
+}
+```
 
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Abstract
-  This study describes three methods for estimating linear regression models with time-varying coefficients: piecewise regression, local regression, and regression with stochastic coefficients (state-space modeling).
-It also details their implementation in R using the `tvCoef` package.
-Through a comparative analysis of around thirty quarterly forecasting models, we show that the use of these methods, especially thanks to the state-space modeling, reduces forecast errors when breakpoints are present in the coefficients.
-Moreover, even when traditional tests conclude that the coefficients are stable, regression with stochastic coefficients can still help reduce forecast errors.
-However, uncertainties related to estimating certain hyperparameters can increase real-time forecast errors, especially for local regression.
-Thus, an economic analysis of estimated parameters remains essential.
 
-  This study is fully reproducible and all the codes used are available under <https://github.com/InseeFrLab/DT-tvcoef>.
-  :::
-  
-- Abbas R.,  Carnot N.,  Lequien M., Quartier-la-Tente A., Roux S. (2024), “On the way to net zero. But which way?”, [*Economics and Statistics n°544*](https://www.insee.fr/en/statistiques/8305263?sommaire=8305267){target="_blank"} and *[INSEE working paper](https://www.insee.fr/en/statistiques/8203306){target="_blank"}*.
-
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Abstract
-  With an optimal investment – or stranding – choice model in carbon-intensive (brown) capital, which emits greenhouse gases, or in emissions-free (green) capital, we describe the optimal transitions to carbon neutrality that comply with climate constraints such as emission caps for a given date (Fit for 55) or carbon budgets. We show that:
-
-  i) Anticipated stranding cannot occur with targets at specific dates.
-
-  ii) To limit warming to a given level, explicitly introducing this constraint in the form of a remaining carbon budget minimizes the associated economic cost, leading to high initial stranding with limited budgets. Emission caps set regularly from the first year, and chosen based on emissions from this optimal trajectory, result in a similar path.
-
-  iii) Given a cumulative emission level, delaying the transition increases costs and stranding.
-
-  iv) Total investment during and after the transition is lower than that in the initial state.
-
-  All the codes used are available at <https://github.com/InseeFrLab/DT-way-to-net-zero>.
-  :::
-
-- Quartier-la-Tente A. (2024), “Real-time trend-cycle estimation: the contribution of asymmetric moving averages”, *[INSEE methodological working paper](https://www.insee.fr/fr/statistiques/7759578){target="_blank"}* (French article).
-
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Abstract
-  This paper focuses on different approaches to build moving averages for real-time trend-cycle estimation and fast turning point detection.
-We propose a comparison of the main methods, based on a general unifying framework to derive linear filters.
-We also describe two possible extensions to local polynomial filters: the addition of a timeliness criterion to control the phase shift (delay in the detection of turning points) and a way to locally parameterize these filters.
-The empirical comparison of the methods shows that: the optimization problems of the filters from the Reproducing Kernel Hilbert Space (RKHS) theory increase the phase shift and the revisions of the trend-cycle estimates;
-modeling polynomial trends that are too complex introduces more revisions without decreasing the phase shift;
-for polynomial filters, a local parameterization reduces the phase shift and the revisions.
-
-  This study is fully reproducible and all the codes used are available under <https://github.com/InseeFrLab/DT-est-tr-tc>.
-  :::
-  
-- Abbas R.,  Carnot N.,  Lequien M., Quartier-la-Tente A., Roux S. (2023), contribution to the Mahfouz - Pisani-Ferry report on [the macro-economic impact of the low-carbon transition](https://www.strategie.gouv.fr/publications/incidences-economiques-de-laction-climat){target="_blank"}, [summary report](https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/2023-incidences-economiques-rapport-pisani-5juin.pdf){target="_blank"} p79-81 and thematic report on [the capital market](https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2023-les_incidences_economiques_de_laction_pour_le_climat-thematique-capital.pdf){target="_blank"} p47-57.
-
-- Babet D., Lequien M., Quartier-la-Tente A. (2022), “The contribution of macroeconomic models to simulate the effects of higher energy import prices”, *[Conjoncture in France](https://www.insee.fr/en/statistiques/6323956?sommaire=6216182){target="_blank"}*, March, p. 16-17.
-
-- Quartier-la-Tente A. (2022), “Real-time detection of turning points: the contribution of asymmetric filters to turning-point detection”, *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2022/S27_2_ACTE_QUARTIERLATENTE_JMS2020.pdf){target="_blank"}* (French article).
-
-- Ladiray D., Quartier-la-Tente A. (2018), “The good use of Reg-ARIMA models in seasonal adjustment”, *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_1_ACTEv3_QUARTIERLATENTE_JMS2018.pdf){target="_blank"}* (French article).
-
-- Pham H., Quartier-la-Tente A. (2018), “Seasonal adjustment of very long time series by sub- period, advantages and choice of the estimate length”, *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_2_ACTEv3_PHAM_JMS2018.pdf){target="_blank"}* (French article).
-
-- Dortet-Bernadet V., Lenseigne F., Parent C., Quartier-la-Tente A., Stoliaroff-Pépin A-M., Plouhinec C. (2016), “After two years of turbulence, the French aeronautical sector is ready to take off again”, *[Conjoncture in France](https://www.inrsee.fr/en/statistiques/fichier/2532051/122016_d1E.pdf){target="_blank"}*, December, p. 19-37.
-
-- Glotain M., Quartier-la-Tente A. (2015), “New sub-sector business climate indicators to improve economic outlook analysis”, *[Conjoncture in France](https://www.insee.fr/en/statistiques/fichier/2019082/062016_d2E.pdf){target="_blank"}*, June, p. 35-54.
-
-- Quartier-la-Tente A. (2015), “To what extent does the integration of sub-sectoral information improve the quality of manufacturing production forecasting?”, Master’s thesis.
-
+**Reviewer for the journals** : [Statéco](https://www.insee.fr/en/information/2116798){target="_blank"},
+_[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_,
+_[Statistical Journal of the IAOS](https://officialstatistics.com){target="_blank"}_, 
+_[International Journal of Operational Research](https://www.inderscience.com/jhome.php?jcode=ijor){target="_blank"}_, _[The R journal](https://journal.r-project.org){target="_blank"}_.
 
 ### Interventions
 
@@ -241,7 +145,7 @@ for polynomial filters, a local parameterization reduces the phase shift and the
 
 - Trend-cycle extraction and moving average manipulations in R with the rjdfilters package (2022), [4th Seasonal Adjustment Practitioners Workshop](https://aqlt.github.io/slides/2022%20-%2006%20-%20SAPW/Slides_AQLT.pdf){target="_blank"}.
 
-- Estimation en temps réel de la tendance-cycle : Apport de l’utilisation des filtres asymétrique (2022), [1ère Journée d'Économétrie Appliquée « Michel TERRAZA »](https://aqlt.github.io/slides/2022%20-%2005%20-%20JEAMT/Slides_AQLT.pdf){target="_blank"}.
+- Estimation en temps réel de la tendance-cycle : Apport de l'utilisation des filtres asymétrique (2022), [1ère Journée d'Économétrie Appliquée « Michel TERRAZA »](https://aqlt.github.io/slides/2022%20-%2005%20-%20JEAMT/Slides_AQLT.pdf){target="_blank"}.
 
 - Performance of asymmetric filters for trend-cycle extraction - Application to the COVID-19 crisis (2021), [JSM (2021)](https://ww2.amstat.org/meetings/jsm/2021/onlineprogram/AbstractDetails.cfm?abstractid=317462){target="_blank"}.
 
@@ -325,111 +229,25 @@ Paris.
 ::::
 
 
-## {{< fa globe-europe >}} Coopérations
+## {{< fa globe-europe >}} Cooperations
 
+```{r}
+#| echo: false
+#| results: asis
 
-:::: {.columns}
-::: {.column width="15%"}
-**Mauritius** (2023)
-:::
-::: {.column width="85%"}
-Technical assistance on the production monthly indicators of economic growth (MIEG).
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Cameroun** (2023)
-:::
-::: {.column width="85%"}
-Technical assistance on the production of seasonally adjusted and working day adjusted of Quarterly National Accounts (QNA).
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Togo** (2023)
-:::
-::: {.column width="85%"}
-Technical assistance on the production of seasonally adjusted and working day adjusted of Quarterly National Accounts (QNA) and Monthly Indicators of Economic Growth (MIEG).
-:::
-::::
-
-
-
-:::: {.columns}
-::: {.column width="15%"}
-**Mauritania** (2022)
-:::
-::: {.column width="85%"}
-Technical assistance on the construction of index of industrial production (IIP) and on seasonal adjustment.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**North Macedonia** (2022)
-:::
-::: {.column width="85%"}
-Technical assistance on liquidity forecasting to the National Bank of North Macedonia.
-:::
-::::
-
-
-:::: {.columns}
-::: {.column width="15%"}
-**Honduras** (2022)
-:::
-::: {.column width="85%"}
-Technical assistance on liquidity forecasting to the Central Bank of Honduras.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Senegal** (2020)
-:::
-::: {.column width="85%"}
-Trainer on manipulation and forecast of time series with {{< fa brands r-project >}} (5 days),
-[BCEAO](https://www.bceao.int){target="_blank"}.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Paris** (2018)
-:::
-::: {.column width="85%"}
-Technical assistance on seasonal adjustment methods to a Serbian Delegation.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Europe** (2017-)
-:::
-::: {.column width="85%"}
-Member of the Eurostat seasonal adjustment center of Excellence: reflections on seasonal adjustment methods; development of R packages around JDemetra+, maintenance and distribution. Technical assistance to several European countries.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Senegal** (2017)
-:::
-::: {.column width="85%"}
-Trainer on forecasting models and construction of synthetic indicators, [BCEAO](https://www.bceao.int){target="_blank"}, Dakar, and [INSEE](https://www.insee.fr/en){target="_blank"},
-Paris.
-:::
-::::
-
-
-:::: {.columns}
-::: {.column width="15%"}
-**Paris** (2016)
-:::
-::: {.column width="85%"}
-Technical assistance on the use of business surveys in forecasting National Accounts to a Serbian Delegation.
-:::
-::::
-
+data <- openxlsx::read.xlsx("CV.xlsx",sheet = "Cooperations")
+data$Descriptif_en <- gsub("\\.\\.", ".", paste0(data$Descriptif_en,"."))
+for (i in 1:nrow(data)) {
+  annee <- data[i, "Année"]
+  pays <- data[i, "Lieu_en"]
+  descriptif <- data[i, "Descriptif_en"]
+  cat(":::: {.columns}\n")
+  cat("::: {.column width=\"15%\"}\n")
+  cat(sprintf("**%s** (%s)\n", pays, annee))
+  cat(":::\n")
+  cat("::: {.column width=\"85%\"}\n")
+  cat(descriptif, "\n")
+  cat(":::\n")
+  cat("::::\n\n")
+}
+```

@@ -4,97 +4,63 @@ title: "Curriculum vitæ"
 
 ## {{< fa briefcase >}} Expérience professionnelle 
 
+```{r}
+#| echo: false
+#| results: asis
 
-:::: {.columns}
-::: {.column width="10%"}
-2024-
-:::
-::: {.column width="90%"}
-**Chef de secteur Synthèse, tableaux des opérations financières et dette publique**,
-[DGFIP](https://www.economie.gouv.fr/dgfip){target="_blank"}, Paris.
-:::
-::::
+data <- openxlsx::read.xlsx("CV.xlsx",sheet = "Experience")
+data[is.na(data[,"Lieu_en"]), "Lieu_en"] <- data[is.na(data[,"Lieu_en"]), "Lieu"]
+data[is.na(data[,"Date_en"]), "Date_en"] <- data[is.na(data[,"Date_en"]), "Date"]
 
-
-:::: {.columns}
-::: {.column width="10%"}
-2021-2024
-:::
-::: {.column width="90%"}
-**Chargé d'études macroéconomiques**,
-[Insee](https://www.insee.fr){target="_blank"}, Paris.
-:::
-::::
-
-
-:::: {.columns}
-::: {.column width="10%"}
-Été
-2020
-:::
-::: {.column width="90%"}
-**Stagiaire dans la cellule Recherche et Développement de la [NBB](https://www.nbb.be/fr){target="_blank"} (National Bank of Belgium)**, Bruxelles, Belgique.  
-<!-- Étude de l'apport des filtres asymétriques dans la détection en temps réel des points de retournement. -->
-:::
-::::
-
-:::: {.columns}
-::: {.column width="10%"}
-2017 - 2019
-:::
-::: {.column width="90%"}
-**Méthodologue sur les corrections des variations saisonnières**,
-[Insee](https://www.insee.fr){target="_blank"}, Paris.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="10%"}
-2019 -
-:::
-::: {.column width="90%"}
-**Référé des revues** [Statéco](https://www.insee.fr/fr/information/2116798){target="_blank"},
-_[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_,
-_[Statistical Journal of the IAOS](https://officialstatistics.com){target="_blank"}_ 
-et 
-_[International Journal of Operational Research](https://www.inderscience.com/jhome.php?jcode=ijor){target="_blank"}_.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="10%"}
-2015 - 2017
-:::
-::: {.column width="90%"}
-**Responsable du suivi de l'activité conjoncturelle dans l'industrie**, [Insee](https://www.insee.fr){target="_blank"}, Paris.
-:::
-::::
-
-
-:::: {.columns}
-::: {.column width="10%"}
-Été
-2013
-:::
-::: {.column width="90%"}
-**Stagiaire dans le service des relations internationales de l'[INE](https://www.ine.es){target="_blank"} (Instituto Nacional de Estadística)**, Madrid, Espagne.
-<!-- Étude d'indicateurs économiques et financiers des *Special Data Dissemination Standard* (SDDS) — Norme Spéciale de Diffusion de Données — du FMI. -->
-:::
-::::
+for (i in 1:nrow(data)) {
+  date <- data[i, "Date"]
+  intitule <- data[i, "Intitulé"]
+  lieu <- data[i, "Lieu"]
+  cat(":::: {.columns}\n")
+  cat("::: {.column width=\"10%\"}\n")
+  cat(date, "\n")
+  cat(":::\n")
+  cat("::: {.column width=\"90%\"}\n")
+  cat(gsub("\\.\\.", ".", sprintf("**%s**, %s.\n", intitule, lieu)))
+  cat(":::\n")
+  cat("::::\n\n")
+}
+```
 
 ## {{< fa user-graduate >}} Formation 
 
 :::: {.columns}
 ::: {.column width="10%"}
-2020 -
+2020 - 2025
 :::
 ::: {.column width="90%"}
 **Doctorant à l'École Doctorale de Gestion et d'Economie ([EDGE](https://ed-edge.doctorat-bretagneloire.fr){target="_blank"}), Laboratoire d'Économie et de Management de Nantes Atlantique ([LEMNA](https://lemna.univ-nantes.fr){target="_blank"})**.
 
-- Détection en temps réels des points de retournement : apport de l'utilisation des filtres asymétriques dans l'analyse conjoncturelle.  
-- Sous la direction d'Olivier Darné (LEMNA) et Dominique Ladiray (Insee).
+- Intitulé : [Estimation en temps réel de la tendance-cycle à l'aide de moyennes mobiles : apports dans l'analyse conjoncturelle](https://theses.fr/s389661){target="_blank"}.  
+- Jury : Olivier DARNÉ (directeur, Nantes Université), 
+Dominique LADIRAY (co-encadrant, Insee), 
+Catherine DOZ (rapporteur, Université Paris 1 Panthéon-Sorbonne), 
+Valérie MIGNON (rapporteur, Université Paris Nanterre),  
+Hamza BENNANI (Nantes Université), 
+Laurent FERRARA (SKEMA Business School), 
+Jean PALATE (Banque Nationale de Belgique).
 :::
 ::::
+
+::: {.callout-resume .callout-warning collapse=true}
+### Résumé
+Les séries désaisonnalisées sont couramment utilisées pour l'analyse conjoncturelle et l'identification des points de retournement. 
+Toutefois, lorsqu'elles sont trop bruitées, un lissage supplémentaire est nécessaire pour extraire la tendance de court terme, appelée tendance-cycle, qui combine la tendance de long terme et les fluctuations cycliques de court terme. 
+Cette extraction repose généralement sur des moyennes mobiles symétriques. 
+Pour l'estimation en temps réel, en l'absence d'observations futures, il est toutefois nécessaire de s'appuyer sur des filtres asymétriques. 
+Cela entraîne retards dans la détection des points de retournement et  révisions au fur et à mesures que de nouvelles observations sont disponibles. 
+Cette thèse vise à préciser pourquoi et comment publier la tendance-cycle et les recommandations pour le faire.
+
+Différentes approches récentes de construction de moyennes mobiles asymétriques sont comparées, tant sur le plan théorique qu'empirique. 
+Deux extensions des filtres de Henderson et de Musgrave, classiquement utilisées pour l'estimation de la tendance-cycle, sont proposées :  1) réduction des révisions et délais dans la détection des points de retournement via une paramétrisation locale ; 2) intégration de régresseurs externes pour construire des filtres robustes à certains chocs. 
+
+Ces travaux s'accompagnent de deux paquets R, `rjd3filters` et `publishTC`, qui facilitent l'application des méthodes proposées, l'étude des propriétés des filtres, l'estimation de la tendance-cycle et leur mise en production.
+:::
 
 :::: {.columns}
 ::: {.column width="10%"}
@@ -159,120 +125,32 @@ _[International Journal of Operational Research](https://www.inderscience.com/jh
 
 ### Publications
 
-* Quartier-la-Tente, A. (2024). Improving Real-Time Trend Estimates Using Local Parametrization of Polynomial Regression Filters. [*Journal of Official Statistics, 40*(4), 685-715](https://doi.org/10.1177/0282423X241283207){target="_blank"}.
+```{r}
+#| echo: false
+#| results: asis
 
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Résumé
-  This paper examines and compares real-time estimates of the trend-cycle component using moving averages constructed with local polynomial regression. It enables the reproduction of Henderson’s symmetric and Musgrave’s asymmetric filters used in the X-13ARIMA-SEATS seasonal adjustment algorithm. This paper proposes two extensions of local polynomial filters for real-time trend-cycle estimates: first including a timeliness criterion to minimize the phase shift; second with procedure for parametrizing asymmetric filters locally while they are generally parametrized globally, which can be suboptimal around turning points. An empirical comparison, based on simulated and real data, shows that modeling polynomial trends that are too complex introduces more revisions without reducing the phase shift, and that local parametrization reduces the delay in detecting turning points and reduces revisions. The results are reproducible and all the methods can be easily applied using the R package `rjd3filters`.
-  :::
+data <- openxlsx::read.xlsx("CV.xlsx",sheet = "Publications")
 
-* Quartier-la-Tente A. (2024), « Utilisation de modèles de régression à coefficients variant dans le temps pour la prévision conjoncturelle\ », *[Document de travail de l'Insee](https://www.insee.fr/fr/statistiques/8210914){target="_blank"}*.
+for (i in 1:nrow(data)) {
+  titre <- sprintf("* %s.", data[i,"Titre"])
+  titre <- gsub("\\.\\.", ".", titre)
+  resume <- data[i,"Résumé"]
+  cat(titre, "\n\n")
+  if( !all(is.na(resume))) {
+    cat("::: {.callout-resume .callout-warning collapse=true}\n")
+    cat("### Résumé\n")
+    cat(resume, "\n")
+    cat(":::\n\n")
+  }
+}
 
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Résumé
-  Cette étude décrit trois méthodes d'estimation de modèles de régression linéaire avec des coefficients variant dans le temps : régression par morceaux, régression locale et régression avec coefficients stochastiques (modélisation espace-état).
-Elle détaille également leur implémentation sous R grâce au package `tvCoef`.
-À travers une analyse comparative sur une trentaine de modèles de prévision trimestrielle, nous montrons que l'utilisation de ces méthodes, notamment par la modélisation espace-état, réduit les erreurs de prévision lorsque des ruptures sont présentes dans les coefficients.
-Par ailleurs, même lorsque les tests classiques concluent à la constance des coefficients, la régression avec coefficients stochastiques peut permettre de réduire les erreurs de prévision.
-Cependant, les incertitudes liées à l'estimation de certains hyperparamètres peuvent augmenter les erreurs de prévision en temps réel, en particulier pour la régression locale. 
-Ainsi, une analyse économique des paramètres estimés demeure essentielle.
-
-  Cette étude est entièrement reproductible et tous les codes utilisés sont disponibles sous <https://github.com/InseeFrLab/DT-tvcoef>.
-  :::
-
-* Abbas R.,  Carnot N.,  Lequien M., Quartier-la-Tente A., Roux S. (2024), « En chemin vers la neutralité carbone. Mais quel chemin ?\ », [*Economie et Statistique n°544*](https://www.insee.fr/fr/statistiques/8302689?sommaire=8302703){target="_blank"} et *[Document de travail de l'Insee](https://www.insee.fr/fr/statistiques/8203278){target="_blank"}*.
-
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Résumé
-  Avec un modèle de choix optimal d'investissement – ou d'échouage – en capital brun, émetteur de gaz à effet de serre, ou vert, sans émissions, nous décrivons les transitions optimales vers la neutralité carbone qui respectent des contraintes climatiques de type plafonds ponctuels d'émissions (Fit for 55) ou budget carbone. Nous montrons que :
-  
-  i) un échouage anticipé ne peut pas se produire avec des cibles ponctuelles ;
-
-  ii) pour limiter le réchauffement à un niveau donné, introduire explicitement cette contrainte sous la forme d'un budget carbone restant minimise le coût économique associé, induisant un échouage initial élevé avec des budgets limités. Des plafonds d'émissions réguliers dès la première année, et choisis à partir des émissions de cette trajectoire optimale, entraînent une trajectoire proche ;
-  
-  iii) à cumul d'émissions donné, retarder la transition augmente les coûts et l'échouage ;
-
-  iv) l'investissement total durant et après la transition est inférieur à celui de l'état initial.
-  
-  Tous les codes utilisés sont disponibles sous <https://github.com/InseeFrLab/DT-way-to-net-zero>.
-  :::
-  
-  
-* Quartier-la-Tente A. (2024), « Estimation en temps réel de la tendance-cycle : apport de l'utilisation des moyennes mobiles asymétriques\ », *[Document de travail méthodologique de l'Insee](https://www.insee.fr/fr/statistiques/7759578){target="_blank"}*.
-
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Résumé
-  Cette étude s'intéresse à différentes méthodes de construction de moyennes mobiles pour l'estimation en temps réel de la tendance-cycle et la détection rapide des points de retournement. Nous proposons une comparaison des principales méthodes, en s'appuyant sur une formulation générique de construction de moyennes mobiles. Nous décrivons également deux prolongements possibles aux filtres polynomiaux locaux : l'ajout d'un critère permettant de contrôler le déphasage (délai dans la détection des points de retournement) et une façon de paramétriser localement ces filtres. La comparaison empirique des méthodes montre que : les problèmes d'optimisation de filtres issus des espaces de Hilbert à noyau reproduisant (RKHS) augmentent le déphasage et les révisions des estimations de la tendance-cycle ; modéliser des tendances polynomiales trop complexes introduit plus de révisions sans diminuer le déphasage ; pour les filtres polynomiaux, une paramétrisation locale permet une réduction des révisions et du délai de détection des points de retournement.
-
-  Cette étude est entièrement reproductible et tous les codes sont disponibles sous <https://github.com/InseeFrLab/DT-est-tr-tc>.
-  :::
-
-* Abbas R.,  Carnot N.,  Lequien M., Quartier-la-Tente A., Roux S. (2023),
- contribution au rapport Mahfouz - Pisani-Ferry sur [l'effet macro-économique de la transition bas carbone](https://www.strategie.gouv.fr/publications/incidences-economiques-de-laction-climat){target="_blank"}, rapport de [synthèse](https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/2023-incidences-economiques-rapport-pisani-5juin.pdf){target="_blank"} p79-81 et rapport thématique sur le [marché du capital](https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2023-les_incidences_economiques_de_laction_pour_le_climat-thematique-capital.pdf){target="_blank"} p47-57.
-
-* Babet D., Lequien M., Quartier-la-Tente A. (2022), « L'apport des modèles macroéconomiques pour simuler les effets du renchérissement des prix d'importation de l'énergie\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/6215280?sommaire=6215395){target="_blank"}*, mars, p. 16-18.
-
-* Quartier-la-Tente A. (2022), « Estimation en temps réel de la tendance-cycle : apport de l'utilisation des filtres asymétriques dans la détection des points de retournement\ », *[14e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2022/S27_2_ACTE_QUARTIERLATENTE_JMS2020.pdf){target="_blank"}*.
-
-* Ladiray D. et Quartier-la-Tente A. (2018), « Du bon usage des modèles Reg-ARIMA en désaisonnalisation\ », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_1_ACTEv3_QUARTIERLATENTE_JMS2018.pdf){target="_blank"}*.
-
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Résumé
-  Les modèles de régression avec erreurs ARIMA (Reg-ARIMA) sont aujourd'hui largement utilisés en désaisonnalisation. Ils permettent notamment d'enlever certains effets déterministes présents dans la série (points atypiques, ruptures, effets de calendrier) avant de la décomposer en tendance-cycle, saisonnalité et irrégulier.
-
-  Les principaux logiciels d'ajustement saisonnier (X-13ARIMA-SEATS, TRAMO-SEATS, JDemetra+) mettent en œuvre ces modèles de façon automatique et conviviale. Cette facilité cache en fait une complexité réelle et dans certains cas un manque de robustesse qui peut échapper à l'utilisateur... et aux tests statistiques.
-
-  Dans cette article, nous illustrons les réelles difficultés de mise en œuvre de ces modèles à travers des cas concrets : l'estimation d'un effet d'année bissextile, l'estimation de ruptures et l'identification d'un modèle ARIMA.
-  :::
+```
 
 
-* Pham H. et Quartier-la-Tente A. (2018), « Désaisonnaliser les séries très longues par sous-période, gains et choix de la longueur de traitement\ », *[13e Journées de Méthodologie Statistique](http://www.jms-insee.fr/2018/S05_2_ACTEv3_PHAM_JMS2018.pdf){target="_blank"}*.
-
-  <!-- Keep two space to preserve bullet list and CSS formatting -->
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Résumé
-  Sur longue période, les institutions, les normes de sociétés ainsi que les comportements des agents économiques évoluent, induisant des changements dans la dynamique des séries écono- miques que l'on étudie. Ainsi, on admet l'idée que les séries temporelles d'une longueur dépassant les 20 années présentent en général un profil changeant. Ces changements pouvant concerner les effets de calendrier (activités les dimanches et jours fériés par exemple), la saisonnalité ou la corrélation temporelle entre observations éloignées modélisée par une fonction ARIMA. Dans ce cas, réaliser une désaisonnalisation sur les séries longues risque de produire des résultats sous-optimaux, en particulier sur les périodes les plus récentes et les plus anciennes.
-  
-  Le premier objectif de cet article est d'examiner si couper les séries longues permet effectivement d'améliorer la qualité de la désaisonnalisation. Les résultats qui sont présentés s'appuient sur une étude empirique des séries de l'indice de la production industrielle (IPI) qui sont longues de 27 années, de janvier 1990 à décembre 2017. En coupant ces séries en deux sous-périodes au point de janvier 2005 afin de désaisonnaliser par sous-période, nous constatons que la qualité de la phase de pré-ajustement s'améliore. Cette phase concerne la détection des outliers, la cor- rection des effets de calendrier et l'estimation d'un modèle ARIMA. En revanche, on constate qu'il n'y a pas de différence sur l'appréciation de la qualité de la décomposition réalisée par la méthode non-paramétrique X11, quand bien même les résultats de la décomposition obtenus sont différents.
-  
-  Par ailleurs, le choix de la date de coupure est lui-même un problème à résoudre. Ce choix peut être guidé par des informations sur les changements de gestion des données, sur les révisions de méthodes statistiques appliquées, sur les chocs connus de nature économique et institutionnelle ou encore il peut simplement résulter de contraintes de production. Autrement dit, le choix peut être effectué à l'aide d'informations qualitatives existant en dehors des données et de manière indépendantes des données. L'autre objectif de cet article est justement d'examiner s'il est possible de proposer un moyen de choisir une date de coupure qui soit fondée sur l'étude des données.
-  :::
-
-* Dortet-Bernadet V., Lenseigne F., Parent C., Quartier-la-Tente A., Stoliaroff-Pépin A-M. et Plouhinec C. (2016), « Après deux ans de turbulences, le secteur aéronautique français peut redécoller\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/fichier/2531682/122016_d1.pdf){target="_blank"}*, décembre, p. 19-37.
-
-  <!-- Keep two space to preserve bullet list and CSS formatting -->
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Résumé
-  L'objectif de ce dossier est d'analyser la conjoncture récente du secteur aéronautique. Ses effets d'entraînement sur l'activité nationale française s'y révèlent plus importants qu'ailleurs et l'économie française s'avère la plus dépendante aux fluctuations de la demande mondiale d'avions. Pourtant, la construction aéronautique française n'a pas profité du récent essor du trafic aérien et s'est repliée en 2014 et 2015. Ce repli tient à la fois à des problèmes d'offre (constructeurs et équipementiers à la limite de leur capacité de production, problèmes d'approvisionnement) et de demande (notamment pour les avions d'affaires et d'hélicoptères). Toutefois, ces problèmes semblent se résoudre peu à peu fin 2016 : production et exportations aéronautiques peuvent maintenant redécoller, ne serait-ce que pour rattraper le retard accumulé dans les livraisons.
-  
-<!--   La France est le 2e exportateur mondial de matériel aéronautique : en 2015, elle en a fourni près d’un quart des exportations mondiales.  -->
-
-<!-- L’économie française est la plus spécialisée dans l’aéronautique. De plus, les effets d’entraînement de la branche aéronautique sur l’activité nationale y sont plus importants qu’ailleurs. En conséquence, l’économie française s’avère la plus dépendante aux fluctuations de la demande mondiale d’avions.  -->
-
-<!-- Pourtant, le secteur aéronautique français n’a pas profité du formidable essor du trafic aérien des dernières années. En effet, si l’industrie aéronautique a favorisé la croissance française de 2000 à  2013, elle s’est repliée en 2014 et 2015.  -->
-
-<!-- En conséquence le solde commercial en matériel aéronautique s’est érodé depuis 2014, et se réduirait encore en 2016, l’excédent se réduisant de presque 12 milliards de dollars en trois ans.  -->
-
-<!-- Ce repli tient à la fois à des problèmes d’offre et de demande :  -->
-<!-- * •	d’un côté, les constructeurs d’avions d’affaires et d’hélicoptères souffrent d’une forte baisse de la demande, en provenance notamment des pays producteurs de pétrole.  -->
-<!-- * •	pour les avions de ligne, le problème est plutôt celui de l’offre : constructeurs et équipementiers étant à la limite de leur capacité de production.  -->
-<!-- * •	aussi, les contraintes d’approvisionnement des constructeurs français ont été importantes depuis 2014, entravant la production et retardant les livraisons.  -->
-<!-- * •	enfin, les avions récents incorporent une part croissante de technologie étrangère, notamment pour les moteurs, ce qui accroît les importations et érode d’autant le solde commercial.  -->
-
-<!-- Toutefois, ces problèmes d’offre et de demande semblent se résoudre peu à peu en 2016. La capacité de production devrait augmenter avec une reprise annoncée de l’investissement du secteur. Les carnets de commandes restent bien garnis, en particulier pour une nouvelle génération de moteurs produits en partie en France.  -->
-
-<!-- Ainsi, la production et les exportations de la branche aéronautique peuvent maintenant redécoller après deux années de turbulences, ne serait-ce que pour rattraper le retard accumulé dans les livraisons.  -->
-  :::
-
-* Glotain M. et Quartier-la-Tente A. (2015), « De nouveaux indicateurs de climats des affaires sous-sectoriels pour améliorer le diagnostic conjoncturel\ », *[Note de conjoncture](https://www.insee.fr/fr/statistiques/fichier/2019067/062016_d2.pdf){target="_blank"}*, juin, p. 35-56.
-
-  ::: {.callout-resume .callout-warning collapse=true}
-  ### Résumé
-  L'objectif de ce dossier est de proposer de nouveaux indicateurs de climats des affaires pour améliorer le diagnostic conjoncturel. Ces indicateurs synthétiques permettent de résumer l'information commune aux soldes d'opinion collectés dans les enquêtes de conjoncture. En plus du climat des affaires « France\ » des climats pour les principaux secteurs marchands (industrie, bâtiment, commerce, services) étaient déjà publiés. Dans ce dossier, une désagrégation plus importante encore est proposée, avec des climats sous-sectoriels. Dans l'industrie, cela permet de distinguer par exemple le climat dans l'agroalimentaire et celui dans l'automobile. Ces climats sous-sectoriels apportent une information pertinente pour l'analyse : ils améliorent la lecture des soldes d'opinion ; ils permettent d'obtenir des prévisions satisfaisantes de l'activité des sous-branches correspondantes ; ils fournissent également, pour l'industrie dans son ensemble, des prévisions plus précises que les modèles utilisés jusqu'à présent. Ces nouveaux indicateurs de climats sous-sectoriels sont depuis systématiquement publiés dans les publications sur les enquêtes de conjoncture.
-  :::
-
-* Quartier-la-Tente A. (2015), « Dans quelle mesure l'intégration d'informations sous-sectorielles permet-elle d'améliorer la qualité de la prévision de la production manufacturière ?\ », mémoire de master, miméo.
-
+**Référé des revues** : [Statéco](https://www.insee.fr/fr/information/2116798){target="_blank"},
+_[Journal of Official Statistics](https://www.scb.se/jos){target="_blank"}_,
+_[Statistical Journal of the IAOS](https://officialstatistics.com){target="_blank"}_, 
+_[International Journal of Operational Research](https://www.inderscience.com/jhome.php?jcode=ijor){target="_blank"}_, _[The R journal](https://journal.r-project.org){target="_blank"}_.
 
 
 ### Interventions
@@ -383,108 +261,23 @@ Paris.
 
 ## {{< fa globe-europe >}} Coopérations
 
-:::: {.columns}
-::: {.column width="15%"}
-**Maurice** (2023)
-:::
-::: {.column width="85%"}
-Assistance technique sur la production d'indicateurs mensuels d'activité économiques (IMAE).
-:::
-::::
+```{r}
+#| echo: false
+#| results: asis
 
-:::: {.columns}
-::: {.column width="15%"}
-**Cameroun** (2023)
-:::
-::: {.column width="85%"}
-Assistance technique sur la production de comptes nationaux trimestriels désaisonnalisés et corrigés des effets jours ouvrables.
-:::
-::::
-
-
-:::: {.columns}
-::: {.column width="15%"}
-**Togo** (2023)
-:::
-::: {.column width="85%"}
-Assistance technique sur la production de comptes nationaux trimestriels et d'indicateurs mensuels d'activité économiques désaisonnalisés et corrigés des effets jours ouvrables.
-:::
-::::
-
-
-:::: {.columns}
-::: {.column width="15%"}
-**Mauritanie** (2022)
-:::
-::: {.column width="85%"}
-Assistance technique sur la construction d'indice de production industrielle (IPI) et sur la désaisonnalisation
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Macédoine du Nord** (2022)
-:::
-::: {.column width="85%"}
-Assistance technique sur les prévisions de liquidités auprès de la Banque centrale de Macédoine du Nord.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Honduras** (2022)
-:::
-::: {.column width="85%"}
-Assistance technique sur les prévisions de liquidités auprès de la Banque centrale du Honduras.
-:::
-::::
-
-
-:::: {.columns}
-::: {.column width="15%"}
-**Sénégal** (2020)
-:::
-::: {.column width="85%"}
-Formation sur le traitement et la prévision de séries temporelles avec le logiciel {{< fa brands r-project >}},
-[BCEAO](https://www.bceao.int){target="_blank"}.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Europe** (2017-)
-:::
-::: {.column width="85%"}
-Membre du centre d'excellence en désaisonnalisation d'Eurostat\ : réflexions sur les méthodes de désaisonnalisation ; développement de packages R autour de JDemetra+, maintenance et distribution. Assistance technique à plusieurs pays européens.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Paris** (2018)
-:::
-::: {.column width="85%"}
-Assistance technique à une délégation serbe sur les méthodes de désaisonnalisation.
-:::
-::::
-
-:::: {.columns}
-::: {.column width="15%"}
-**Sénégal** (2017)
-:::
-::: {.column width="85%"}
-Formation sur la construction de modèles de prévisions et d'indicateurs synthétiques, [BCEAO](https://www.bceao.int){target="_blank"}, Dakar, et [Insee](https://www.insee.fr){target="_blank"},
-Paris.
-:::
-::::
-
-
-:::: {.columns}
-::: {.column width="15%"}
-**Paris** (2016)
-:::
-::: {.column width="85%"}
-Assistance technique à une délégation serbe sur l'utilisation des enquêtes de conjoncture pour la prévision.
-:::
-::::
-
+data <- openxlsx::read.xlsx("CV.xlsx",sheet = "Cooperations")
+data$Descriptif <- gsub("\\.\\.", ".", paste0(data$Descriptif,"."))
+for (i in 1:nrow(data)) {
+  annee <- data[i, "Année"]
+  pays <- data[i, "Lieu"]
+  descriptif <- data[i, "Descriptif"]
+  cat(":::: {.columns}\n")
+  cat("::: {.column width=\"15%\"}\n")
+  cat(sprintf("**%s** (%s)\n", pays, annee))
+  cat(":::\n")
+  cat("::: {.column width=\"85%\"}\n")
+  cat(descriptif, "\n")
+  cat(":::\n")
+  cat("::::\n\n")
+}
+```
