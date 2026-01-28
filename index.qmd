@@ -18,7 +18,7 @@ css: css/home.css
 
 ```{r}
 #| echo: false
-subtitle <- "Administrateur de l'Insee"
+subtitle <- "Insed de l'Insee"
 nis_fr <- Sys.getenv("QUARTO_PROFILE") != "fr"
 ```
 
