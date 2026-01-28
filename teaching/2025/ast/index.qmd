@@ -11,7 +11,7 @@ Supports de cours et exercices de la formation [Analyse des séries temporelles 
 
 # {{< fa person-chalkboard >}} Cours
 
-1. [Rappels sur l’environnement de travail de R]({{< var a2025.ast.url >}}/Cours/1_Rappels_R.pdf)
+1. [Rappels sur l'environnement de travail de R]({{< var a2025.ast.url >}}/Cours/1_Rappels_R.pdf)
 
 2. [Analyse graphique]({{< var a2025.ast.url >}}/Cours/2_Analyse_Graphique.pdf) (voir également compléments sur la [transformation inverse de Box-Cox]({{< var a2025.ast.url >}}/backcasttransform.qmd))
 

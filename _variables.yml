@@ -12,3 +12,7 @@ a2023:
 a2025:
   ast:
     url: "https://aqlt.github.io/formation.2025.ast/"
+  cvs:
+    url: "https://aqlt.github.io/formation.2025.cvs/"
+  ateliercvs:
+    url: "https://aqlt.github.io/atelier.cvs.2025/"

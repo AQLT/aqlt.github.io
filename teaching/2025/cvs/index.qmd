@@ -1,0 +1,9 @@
+---
+title: "Désaisonnaliser une série temporelle"
+lang: fr
+date: 10/09/2025 # Format: MM/DD/YYYY
+date-format: "MMM YYYY"
+image: "img/logo.png"
+---
+
+Site web associé à la formation : [{{< var a2025.cvs.url >}}]({{< var a2025.cvs.url >}}).

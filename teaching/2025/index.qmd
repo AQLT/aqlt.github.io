@@ -7,5 +7,11 @@ comments: false
 
 # 2025
 
+- Octobre 2025 : [Désaisonnaliser une série temporelle](cvs/) (Cepe)  ![](cvs/img/logo.png){width="10%"} 
+
+- Août 2025 : [Séminaire sur la correction des variations saisonnières dans les États membre de l'AFRITAC de l'Ouest (AFW)](ateliercvs/) (Cepe)  ![](ateliercvs/img/logo.png){width="10%"}  
+
 - Juin 2025 : [Analyse de séries temporelles avec {{< fa brands r-project >}}](ast/) (Cepe)  ![](ast/img/logo.png){width="10%"}  
+
+
 

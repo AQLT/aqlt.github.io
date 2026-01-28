@@ -1,0 +1,9 @@
+---
+title: "Atelier correction des variations saisonnières"
+lang: fr
+date: 08/18/2025 # Format: MM/DD/YYYY
+date-format: "MMM YYYY"
+image: "img/logo.png"
+---
+
+Site web associé à l'atelier : [{{< var a2025.ateliercvs.url >}}]({{< var a2025.ateliercvs.url >}}).
